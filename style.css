@@ -46,9 +46,6 @@ body {
     background-image: url("Images/bannerBG.png");
     background-repeat: repeat-x;
     margin: -10px;
-    /*background: linear-gradient(#1D5CC1, #4E7BC4, #FFFFFF);
-    height: 200px;
-    */
 }
 
 #header-menu {
@@ -107,6 +104,27 @@ body {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 .contact-person {
     padding-bottom: 15px;
+}
+
+.contact-person > p {
+    margin-top: 0px;
+}
+
+/* Below is code for members.html */
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #e5e8e9;
+    font-size: 20px;
 }
