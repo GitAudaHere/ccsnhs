@@ -1,0 +1,15 @@
+#banner {
+    background-image: url(http://www.collegiumcharter.com/wp-content/themes/University-Child/images/header_nav.png);
+    background-repeat: repeat-x;
+    height: 148px;
+}
+
+body {
+    font-family: "Nunito";
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
