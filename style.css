@@ -11,15 +11,6 @@ body {
     font-family: "Nunito";
 }
 
-#banner {
-    background-image: url("Images/bannerBG.png");
-    background-repeat: repeat-x;
-    margin: -10px;
-    /*background: linear-gradient(#1D5CC1, #4E7BC4, #FFFFFF);
-    height: 200px;
-    */
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -49,6 +40,15 @@ body {
 
 .dropdown-menu:hover .dropdown-content {
     display: block;
+}
+
+#banner {
+    background-image: url("Images/bannerBG.png");
+    background-repeat: repeat-x;
+    margin: -10px;
+    /*background: linear-gradient(#1D5CC1, #4E7BC4, #FFFFFF);
+    height: 200px;
+    */
 }
 
 #header-menu {
