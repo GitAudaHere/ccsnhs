@@ -1,8 +1,8 @@
-#banner {
-    background-image: url(http://www.collegiumcharter.com/wp-content/themes/University-Child/images/header_nav.png);
-    background-repeat: repeat-x;
-    height: 148px;
-}
+/*
+    This file is currently not in use.
+    contact.html is using style.css right now.
+    DO NOT DELETE
+*/
 
 body {
     font-family: "Nunito";
@@ -12,4 +12,16 @@ h1 {
     font-size: 28px;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+#banner {
+    background-image: url("Images/bannerBG.png");
+    background-repeat: repeat-x;
+    margin: -10px;
+}
+
+#logo {
+    height: 187px;
+    width: 506px;
+    margin-top: 40px;
 }

@@ -87,3 +87,26 @@ body {
     padding-left: 2.2%;
     padding-right: 2.2%;
 }
+
+
+/* Below is styling for contact.html only*/
+#contact-content {
+    margin: 2.5% 5% 5% 5%;
+}
+
+#contact-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+#contact-wrapper > article > h1 {
+    border-bottom: 4px solid #e5e8e9;
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-person {
+    padding-bottom: 15px;
+}
