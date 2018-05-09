@@ -2,6 +2,11 @@ body {
     font-family: "Nunito";
 }
 
+#banner {
+    background: linear-gradient(#1D5CC1, #4E7BC4, #FFFFFF);
+    height: 200px;
+}
+
 #site-header {
     height: 148px;
     padding-left: 2.2%;
