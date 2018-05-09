@@ -2,6 +2,15 @@ body {
     font-family: "Nunito";
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DDDDFF;
+}
+
 #banner {
     background-image: url(http://www.collegiumcharter.com/wp-content/themes/University-Child/images/header_nav.png);
     background-repeat: repeat-x;
