@@ -11,6 +11,15 @@ body {
     font-family: "Nunito";
 }
 
+h1 {
+    text-align: center;
+    border-bottom: 4px solid #e5e8e9;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -96,6 +105,7 @@ body {
     margin: auto;
 }
 
+/*
 #contact-wrapper > article > h1 {
     border-bottom: 4px solid #e5e8e9;
     font-size: 28px;
@@ -103,6 +113,7 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+*/
 
 h2 {
     margin-bottom: 0px;
@@ -134,6 +145,7 @@ th {
     margin-bottom: 20%;
 }
 
+/*
 .about-section > h1 {
     text-align: center;
     border-bottom: 4px solid #e5e8e9;
@@ -142,7 +154,14 @@ th {
     font-size: 28px;
     padding-bottom: 10px;
 }
+*/
 
 #about-wrapper {
     margin: 2.5% 20% 5% 20%;
 }
+
+/* Below is code for events.html */
+.event-content {
+    margin: 0% 15% 15% 15%;
+}
+
