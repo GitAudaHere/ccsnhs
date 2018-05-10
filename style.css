@@ -128,3 +128,21 @@ th {
     border-bottom: 2px solid #e5e8e9;
     font-size: 20px;
 }
+
+/* Below is code for about.html */
+.about-section {
+    margin-bottom: 20%;
+}
+
+.about-section > h1 {
+    text-align: center;
+    border-bottom: 4px solid #e5e8e9;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+#about-wrapper {
+    margin: 2.5% 20% 5% 20%;
+}
