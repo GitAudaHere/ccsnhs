@@ -45,7 +45,7 @@ body {
 #banner {
     background-image: url("Images/bannerBG.png");
     background-repeat: repeat-x;
-    margin: -10px;
+    margin: -8px;
 }
 
 #header-menu {
@@ -125,7 +125,7 @@ td, th {
 th {
     text-align: center;
     padding-bottom: 25px;
-    border-bottom: 2px solid #e5e8e9;
+    border-bottom: 3px solid #e5e8e9;
     font-size: 20px;
 }
 
