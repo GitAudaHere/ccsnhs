@@ -17,7 +17,7 @@ h1 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .dropdown {
@@ -63,6 +63,7 @@ h1 {
     padding-left: 2.2%;
     padding-right: 2.2%;
     display: inline-block;
+    margin-bottom: 40px;
 }
 
 #logo {
@@ -79,6 +80,7 @@ h1 {
     font-size: 18px;
     font-weight: 500;
     height: 32px;
+    /* Is line-height necessary? */
     line-height: 32px;
     display: inline-flex;
     text-transform: uppercase;
@@ -103,7 +105,7 @@ h1 {
 }
 
 #contact-wrapper {
-    width: 90%;
+    width: 60%;
     margin: auto;
 }
 
