@@ -47,9 +47,11 @@ h1 {
     padding: 10px;
 }
 
+/*
 .dropdown-menu:hover .dropdown-content {
     display: block;
 }
+*/
 
 #banner {
     background-image: url("Images/bannerBG.png");
