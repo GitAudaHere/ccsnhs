@@ -1,3 +1,5 @@
+/* =========[ CSS ]========= */
+
 a {
     color: #FFFFFF;
     text-decoration: none;
@@ -18,6 +20,7 @@ h1 {
     font-weight: normal;
     font-size: 24px;
     padding-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .dropdown {
@@ -46,12 +49,6 @@ h1 {
     color: white;
     padding: 10px;
 }
-
-/*
-.dropdown-menu:hover .dropdown-content {
-    display: block;
-}
-*/
 
 #banner {
     background-image: url("Images/bannerBG.png");
@@ -98,17 +95,6 @@ h1 {
     padding-right: 2.2%;
 }
 
-
-/* Below is styling for contact.html only*/
-#contact-content {
-    margin: 2.5% 5% 5% 5%;
-}
-
-#contact-wrapper {
-    width: 60%;
-    margin: auto;
-}
-
 /*
 #contact-wrapper > article > h1 {
     border-bottom: 4px solid #e5e8e9;
@@ -119,33 +105,8 @@ h1 {
 }
 */
 
-h2 {
-    margin-bottom: 0px;
-    font-size: 20px;
-}
+/* ---------[ about.html ]--------- */
 
-.contact-person {
-    padding-bottom: 15px;
-}
-
-.contact-person > p {
-    margin-top: 0px;
-}
-
-/* Below is code for members.html */
-td, th {
-    text-align: left;
-    padding: 8px;
-}
-
-th {
-    text-align: center;
-    padding-bottom: 25px;
-    border-bottom: 3px solid #e5e8e9;
-    font-size: 20px;
-}
-
-/* Below is code for about.html */
 .about-section {
     margin-bottom: 100px;
 }
@@ -161,15 +122,40 @@ th {
 }
 */
 
-#about-wrapper {
-    margin: 2.5% 20% 5% 20%;
-}
-
 .members-wrapper {
     margin-bottom: 150px;
 }
 
-/* Below is code for events.html */
+#about-wrapper {
+    margin: 2.5% 20% 5% 20%;
+}
+
+/* ---------[ contact.html ]--------- */
+
+h2 {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.contact-person {
+    padding-bottom: 15px;
+}
+
+.contact-person > p {
+    margin-top: 0px;
+}
+
+#contact-content {
+    margin: 2.5% 5% 5% 5%;
+}
+
+#contact-wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+/* ---------[ events.html ]--------- */
+
 .event-content {
     margin: 0% 20% 15% 20%;
 }
@@ -178,15 +164,34 @@ th {
     margin-bottom: 50px;
 }
 
-/* Below is code for resources.html */
+/* ---------[ hours.html ]--------- */
+
+iframe {
+    border: 4px solid #a39898;
+}
+
+.form-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; /* Has to be the same as .submission-forms width */
+}
+
 .submission-forms {
     width: 800px;
     height: 900px;
     margin-bottom: 100px;
 }
 
-.form-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
+/* ---------[ members.html ]--------- */
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    padding: 8px 8px 25px 8px;
+    border-bottom: 3px solid #e5e8e9;
+    font-size: 20px;
 }
