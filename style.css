@@ -117,6 +117,7 @@ h1 {
 
 h2 {
     margin-bottom: 0px;
+    font-size: 20px;
 }
 
 .contact-person {
@@ -142,7 +143,7 @@ th {
 
 /* Below is code for about.html */
 .about-section {
-    margin-bottom: 20%;
+    margin-bottom: 100px;
 }
 
 /*
@@ -160,8 +161,28 @@ th {
     margin: 2.5% 20% 5% 20%;
 }
 
-/* Below is code for events.html */
-.event-content {
-    margin: 0% 15% 15% 15%;
+.members-wrapper {
+    margin-bottom: 150px;
 }
 
+/* Below is code for events.html */
+.event-content {
+    margin: 0% 20% 15% 20%;
+}
+
+#contact-intro {
+    margin-bottom: 50px;
+}
+
+/* Below is code for resources.html */
+.submission-forms {
+    width: 800px;
+    height: 900px;
+    margin-bottom: 100px;
+}
+
+.form-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
