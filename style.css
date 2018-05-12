@@ -5,9 +5,11 @@ a {
     text-decoration: none;
 }
 
+/*
 a:hover {
     color: #DDDDFF;
 }
+*/
 
 body {
     font-family: "Nunito";
@@ -15,29 +17,36 @@ body {
 
 h1 {
     text-align: center;
-    border-bottom: 4px solid #e5e8e9;
     text-transform: uppercase;
     font-weight: normal;
     font-size: 24px;
     padding-bottom: 25px;
+    border-bottom: 4px solid #e5e8e9;
     margin-bottom: 30px;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    padding: 10px;
+}
+
+.dropdown:hover {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #42c5f4;
+    color: #42c5f4;
 }
 
 .dropdown-content {
     display: none;
-    margin-top: 40px;
+    margin-top: 46px;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 100px;
     z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown-content > a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -48,6 +57,13 @@ h1 {
 .dropdown-menu {
     color: white;
     padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 32px;
+    /* Is line-height necessary? */
+    line-height: 32px;
+    display: inline-flex;
+    text-transform: uppercase;
 }
 
 #banner {
@@ -73,21 +89,25 @@ h1 {
     float: right;
 }
 
+/*
 #main-menu > li {
     font-size: 18px;
     font-weight: 500;
     height: 32px;
-    /* Is line-height necessary? */
+        Is line-height necessary?
     line-height: 32px;
     display: inline-flex;
     text-transform: uppercase;
 }
+*/
 
+/*
 #main-menu > li > a {
     display: block;
     position: relative;
     padding: 10px;
 }
+*/
 
 #site-header {
     height: 380px;
