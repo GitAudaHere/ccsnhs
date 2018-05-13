@@ -1,5 +1,6 @@
 $(document).ready(function(){
     var animationSpeed = 250;
+
     /* Menu dropdown animation */
     $(".dropdown-menu").hover(function(){
         $(this).siblings().find("div").slideUp(animationSpeed);
@@ -7,14 +8,15 @@ $(document).ready(function(){
     }, function(){
         $(this).find("div").slideUp(animationSpeed);
     });
+
     /* Menu item highlight animation */
     $(".dropdown").hover(function(){
-        $(this).animate({color: "#42c5f4"});
-        $(this).css({paddingBottom: "30px"});
-        $(this).css({borderBottomWidth: "2px"});
+        $(this).animate({color: "#42c5f4"}, animationSpeed);
+        $(this).css({paddingBottom: "30px"}, animationSpeed);
+        $(this).css({borderBottomWidth: "2px"}, animationSpeed);
     }, function(){
         $(this).animate({color: "#FFFFFF"}, animationSpeed);
-        $(this).css({paddingBottom: "10px"});
-        $(this).css({borderBottomWidth: "0px"});
+        $(this).css({paddingBottom: "10px"}, animationSpeed);
+        $(this).css({borderBottomWidth: "0px"}, animationSpeed);
     });
 });

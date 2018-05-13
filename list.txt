@@ -1,0 +1,13 @@
+******| TODO List |******
+
+
+
+******| Bugs |******
+
+-> The dropdown menu div starts from above the menu text.
+    This glitches out the animation. I think it is also because of this that
+    the color change animation happens twice when you stay on the text.
+
+-> When you hover over the menu text and wait for the animation to complete,
+    you can't click on the dropdown items because the slideUp animation
+    starts.
