@@ -145,6 +145,10 @@ h1 {
     margin: 2.5% 20% 5% 20%;
 }
 
+#members-table {
+    margin-bottom: 75px;
+}
+
 /* ---------[ contact.html ]--------- */
 
 h2 {
