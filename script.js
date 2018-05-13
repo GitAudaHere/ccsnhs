@@ -9,7 +9,6 @@ $(document).ready(function(){
         $(this).find("div").slideUp(animationSpeed);
     });
 
-    
     /* Menu item highlight animation */
     $(".dropdown").hover(function(){
         $(this).animate({color: "#42c5f4"}, animationSpeed);

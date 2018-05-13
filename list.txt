@@ -2,7 +2,6 @@
 
 
 
-
 ******| Bugs |******
 
 -> The dropdown menu div starts from above the menu text.
