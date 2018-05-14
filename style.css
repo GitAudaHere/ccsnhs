@@ -127,7 +127,9 @@ h1 {
 }
 
 #about-wrapper {
-    margin: 2.5% 20% 5% 20%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*
 .about-section > h1 {
