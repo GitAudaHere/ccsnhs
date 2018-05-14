@@ -30,6 +30,11 @@ necessary.
 -> Add tutoring page
 
 
+******| Problems |******
+
+-> Formatting of the events section.
+
+
 ******| Bugs |******
 
 -> The dropdown menu div starts from above the menu text.
