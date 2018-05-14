@@ -176,11 +176,20 @@ h2 {
 /* ---------[ events.html ]--------- */
 
 .event-content {
-    margin: 0% 20% 15% 20%;
+    margin: 0% 20% 15% 10%;
 }
 
 #contact-intro {
     margin-bottom: 50px;
+}
+
+#events-panel-left {
+    float: left;
+}
+
+#events-panel-right {
+    float: right;
+    margin-right: 12%;
 }
 
 /* ---------[ hours.html ]--------- */

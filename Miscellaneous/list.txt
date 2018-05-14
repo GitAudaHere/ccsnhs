@@ -1,5 +1,33 @@
+================================
+Make sure the formatting is the
+same throughout this file. Feel
+free to add more sections when
+necessary.
+================================
+
+
 ******| TODO List |******
 
+-> Reformat the headings (h1, h2, etc.) so that you don't have to change
+    each one specifically.
+
+-> Add title for the events page.
+
+-> Add picture to the pages.
+
+-> Add descriptions of officer roles.
+
+-> Add a "back to top" button.
+
+-> Add a footer (maybe a disclaimer?)
+
+-> Add icons
+
+-> Add mission statement?
+
+-> Add by-laws page?
+
+-> Add tutoring page
 
 
 ******| Bugs |******
@@ -8,6 +36,6 @@
     This glitches out the animation. I think it is also because of this that
     the color change animation happens twice when you stay on the text.
 
--> When you hover over the menu text and wait for the animation to complete,
-    you can't click on the dropdown items because the slideUp animation
-    starts.
+-> When you hover over the menu text and don't wait for the animation to
+    complete, you can't click on the dropdown items because the slideUp
+    animation starts.
