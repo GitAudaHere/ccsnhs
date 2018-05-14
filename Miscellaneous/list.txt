@@ -13,7 +13,7 @@ necessary.
 
 -> Add title for the events page.
 
--> Add picture to the pages.
+-> Add picture to the pages. (Need to get pictures from Yearbook (Abby?))
 
 -> Add descriptions of officer roles.
 
@@ -21,13 +21,13 @@ necessary.
 
 -> Add a footer (maybe a disclaimer?)
 
--> Add icons
+-> Add icons (Where?)
 
--> Add mission statement?
+-> Add mission statement? (This should be in "About > Our Mission")
 
--> Add by-laws page?
+-> Add by-laws page? (By-laws should go in "Our Requirements")
 
--> Add tutoring page
+-> Add tutoring page (This could go under "Resources" or something)
 
 
 ******| Bugs |******
@@ -42,5 +42,6 @@ necessary.
     animation starts.
     [RESOLVED]
 
--> There is a slight delay now between hovering over a dropdown element
-    and the element turning blue.
+-> There is a slight delay between hovering over a dropdown element
+    and the element changing color when the elements are highlighted in
+    rapid succession.
