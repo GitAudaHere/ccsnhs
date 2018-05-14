@@ -35,7 +35,12 @@ necessary.
 -> The dropdown menu div starts from above the menu text.
     This glitches out the animation. I think it is also because of this that
     the color change animation happens twice when you stay on the text.
+    [RESOLVED]
 
 -> When you hover over the menu text and don't wait for the animation to
     complete, you can't click on the dropdown items because the slideUp
     animation starts.
+    [RESOLVED]
+
+-> There is a slight delay now between hovering over a dropdown element
+    and the element turning blue.

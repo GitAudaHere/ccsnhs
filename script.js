@@ -7,6 +7,9 @@ $(document).ready(function(){
         $(this).find("div").fadeIn(animationSpeed);
     }, function(){
         $(this).find("div").fadeOut(animationSpeed);
+        $(".dropdown").animate({color: "#FFFFFF"}, animationSpeed);
+        $(".dropdown").css({paddingBottom: "10px"}, animationSpeed);
+        $(".dropdown").css({borderBottomWidth: "0px"}, animationSpeed);
     });
 
     /* Menu item highlight animation */

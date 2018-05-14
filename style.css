@@ -34,10 +34,10 @@ h1 {
 
 .dropdown-content {
     display: none;
-    margin-top: 46px;
+    margin-top: 42px;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 100px;
+    min-width: 127px;
     z-index: 1;
 }
 
