@@ -3,10 +3,10 @@ $(document).ready(function(){
 
     /* Menu dropdown animation */
     $(".dropdown-menu").hover(function(){
-        $(this).siblings().find("div").slideUp(animationSpeed);
-        $(this).find("div").slideDown(animationSpeed);
+        $(this).siblings().find("div").fadeOut(animationSpeed);
+        $(this).find("div").fadeIn(animationSpeed);
     }, function(){
-        $(this).find("div").slideUp(animationSpeed);
+        $(this).find("div").fadeOut(animationSpeed);
     });
 
     /* Menu item highlight animation */
@@ -15,8 +15,11 @@ $(document).ready(function(){
         $(this).css({paddingBottom: "30px"}, animationSpeed);
         $(this).css({borderBottomWidth: "2px"}, animationSpeed);
     }, function(){
-        $(this).animate({color: "#FFFFFF"}, animationSpeed);
-        $(this).css({paddingBottom: "10px"}, animationSpeed);
-        $(this).css({borderBottomWidth: "0px"}, animationSpeed);
+        if($(".dropdown-content:hover").length == 0)
+        {
+            $(this).animate({color: "#FFFFFF"}, animationSpeed);
+            $(this).css({paddingBottom: "10px"}, animationSpeed);
+            $(this).css({borderBottomWidth: "0px"}, animationSpeed);
+        }
     });
 });
