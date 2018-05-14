@@ -20,7 +20,7 @@ h1 {
     text-transform: uppercase;
     font-weight: normal;
     font-size: 24px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 4px solid #e5e8e9;
     margin-bottom: 30px;
 }
@@ -126,6 +126,9 @@ h1 {
     margin-bottom: 100px;
 }
 
+#about-wrapper {
+    margin: 2.5% 20% 5% 20%;
+}
 /*
 .about-section > h1 {
     text-align: center;
@@ -136,18 +139,6 @@ h1 {
     padding-bottom: 10px;
 }
 */
-
-.members-wrapper {
-    margin-bottom: 150px;
-}
-
-#about-wrapper {
-    margin: 2.5% 20% 5% 20%;
-}
-
-#members-table {
-    margin-bottom: 75px;
-}
 
 /* ---------[ contact.html ]--------- */
 
@@ -164,8 +155,8 @@ h3 {
     margin-top: 0px;
 }
 
-#contact-content {
-    margin: 2.5% 5% 5% 5%;
+#contact-intro {
+    margin-bottom: 50px;
 }
 
 #contact-wrapper {
@@ -186,11 +177,7 @@ h2 {
 }
 
 .event-content {
-    margin: 0% 20% 15% 10%;
-}
-
-#contact-intro {
-    margin-bottom: 50px;
+    width: 70%;
 }
 
 #events-panel-left {
@@ -200,11 +187,10 @@ h2 {
 
 #events-panel-right {
     float: right;
-    margin-right: 12%;
+    margin-right: 15%;
 }
 
 #events-title {
-    margin: auto 20% 60px auto;
     width: 80%;
 }
 
@@ -238,4 +224,12 @@ th {
     padding: 8px 8px 25px 8px;
     border-bottom: 3px solid #e5e8e9;
     font-size: 20px;
+}
+
+.members-wrapper {
+    margin-bottom: 150px;
+}
+
+#members-table {
+    margin-bottom: 75px;
 }

@@ -33,6 +33,9 @@ necessary.
 ******| Problems |******
 
 -> Formatting of the events section.
+    [RESOLVED]
+
+-> Simplify the code for the margins and spacing of elements.
 
 
 ******| Bugs |******
