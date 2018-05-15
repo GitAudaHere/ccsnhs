@@ -29,6 +29,8 @@ necessary.
 
 -> Add tutoring page (This could go under "Resources" or something)
 
+-> Decide on the bg and text colors of the menu items.
+
 
 ******| Problems |******
 

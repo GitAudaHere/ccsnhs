@@ -49,6 +49,11 @@ h1 {
     font-size: 14px;
 }
 
+.dropdown-content > a:hover {
+    background-color: #807575;
+    color: #42c5f4;
+}
+
 .dropdown-menu {
     color: white;
     padding: 10px;
