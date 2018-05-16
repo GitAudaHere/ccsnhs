@@ -23,7 +23,7 @@ Honor Society website.
     *   Specify text encoding in the head.
 
 2.  CSS
-    * Start all CSS files with the following syntax:
+    *   Start all CSS files with the following syntax:
 
             /* =========[ CSS ]========= */
     
