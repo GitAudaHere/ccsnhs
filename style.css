@@ -176,6 +176,16 @@ th {
     width: 80%;
 }
 
+#first-activity {
+    background-color: #CCCCCC;
+}
+
+#front-page-wrapper {
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+
 #header-menu {
     padding-left: 2.2%;
     padding-right: 2.2%;
@@ -197,8 +207,29 @@ th {
     margin-bottom: 75px;
 }
 
+#news {
+    float: left;
+    border: 1px solid black;
+}
+
 #site-header {
     height: 380px;
     padding-left: 2.2%;
     padding-right: 2.2%;
+}
+
+#upcoming-events {
+    border: 1px solid black;
+    width: 300px;
+}
+
+#upcoming-meetings {
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+#upcoming-wrapper {
+    float: right;
+    border: 1px solid red;
 }
