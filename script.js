@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var animationSpeed = 250;
+    var animationSpeed = 150;
 
     /* Menu dropdown animation */
     $(".dropdown-menu").hover(function(){
@@ -25,4 +25,21 @@ $(document).ready(function(){
             $(this).css({borderBottomWidth: "0px"}, animationSpeed);
         }
     });
+
+    /*
+     Drop down bylaws 
+    var bylaws_open = false;
+    $("#bylaws-dropdown").click(function(){
+        if (bylaws_open == false){
+            $(this).slideDown(animationSpeed * 2);
+            bylaws_open = true;
+        }
+        else{
+            $(this).slideUp(animationSpeed * 2);
+            bylaws_open = false;
+            $(this).css({height: "100px"});
+            $(this).css({background: "#42c5f4"});
+        }
+    });
+    */
 });
