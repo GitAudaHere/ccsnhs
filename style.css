@@ -241,8 +241,13 @@ th {
     margin-bottom: 75px;
 }
 
+/* ---------[ requirements.html ]--------- */
 
-
+#bylaws {
+    width: 70%;
+    margin: auto;
+    line-height: 1.5;
+}
 
 #bylaws-dropdown {
     height: 100px;
