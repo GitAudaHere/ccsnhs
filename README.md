@@ -15,9 +15,9 @@ Honor Society website.
     *   Use lowercase element names in all tags.
     *   Close all html elements.
     *   Close the following elements on the same line:
-        *   <h1></h1>, <h2></h2>, etc.
-        *   <strong></strong>, <em></em>, etc.
-        *   All head elements (eg. <title></title>, <link/>, etc.)
+        *   `<h1></h1>`, `<h2></h2>`, etc.
+        *   `<strong></strong>`, `<em></em>`, etc.
+        *   All head elements (eg. `<title></title>`, `<link/>`, etc.)
     *   Close all empty HTML tags with a `/`
     *   All images should contain an `alt` attribute.
     *   Specify text encoding in the head.
