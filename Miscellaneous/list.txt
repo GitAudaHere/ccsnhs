@@ -29,6 +29,15 @@ necessary.
 
 -> Add tutoring page (This could go under "Resources" or something)
 
+-> List the next 5 meetings
+    -> Highlight the next one
+    -> Slightly different highlight for the next two
+    -> Accentuate major changes such as an afterschool meeting.
+
+-> Brief list of upcoming events.
+
+-> Society news and reminders on the left.
+
 
 ******| Problems |******
 
