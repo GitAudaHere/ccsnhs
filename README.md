@@ -22,7 +22,8 @@ Honor Society website.
     *   All images should contain an `alt` attribute.
     *   Specify text encoding in the head.
 2.  CSS
-    *   Start all sections with the following syntax:
+    *   The CCS file should contain three sections. Start all
+        sections with the following syntax:
 
         /* ---------[ _Section Name_ ]--------- */
 
