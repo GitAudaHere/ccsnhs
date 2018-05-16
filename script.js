@@ -26,20 +26,15 @@ $(document).ready(function(){
         }
     });
 
-    /*
-     Drop down bylaws 
     var bylaws_open = false;
     $("#bylaws-dropdown").click(function(){
         if (bylaws_open == false){
-            $(this).slideDown(animationSpeed * 2);
+            $("#bylaws").slideDown(animationSpeed * 2);
             bylaws_open = true;
         }
         else{
-            $(this).slideUp(animationSpeed * 2);
+            $("#bylaws").slideUp(animationSpeed * 2);
             bylaws_open = false;
-            $(this).css({height: "100px"});
-            $(this).css({background: "#42c5f4"});
         }
     });
-    */
 });
