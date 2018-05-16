@@ -50,7 +50,8 @@ h1 {
 }
 
 .dropdown-content > a:hover {
-    background-color: #807575;
+    /* background-color: #807575; */
+    background-color: #273B59;
     color: #42c5f4;
 }
 

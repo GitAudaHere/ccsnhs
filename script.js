@@ -29,11 +29,11 @@ $(document).ready(function(){
     var bylaws_open = false;
     $("#bylaws-dropdown").click(function(){
         if (bylaws_open == false){
-            $("#bylaws").slideDown(animationSpeed * 2);
+            $("#bylaws").slideDown(animationSpeed * 10);
             bylaws_open = true;
         }
         else{
-            $("#bylaws").slideUp(animationSpeed * 2);
+            $("#bylaws").slideUp(animationSpeed * 10);
             bylaws_open = false;
         }
     });
