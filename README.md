@@ -21,13 +21,21 @@ Honor Society website.
     *   Close all empty HTML tags with a `/`.
     *   All images should contain an `alt` attribute.
     *   Specify text encoding in the head.
+
 2.  CSS
+    * Start all CSS files with the following syntax:
+
+            /* =========[ CSS ]========= */
+    
     *   The CCS file should contain three sections. Start all
         sections with the following syntax:
 
-        /* ---------[ _Section Name_ ]--------- */
+            /* ---------[ Section Name ]--------- */
 
     *   List the styling of elements in the first section, the
         styling of classes in the second, and the styling of ids
         in the third.
     *   Each section should be sorted alphabetically.
+    *   List spacing attributes first, then size, then styling,
+        and finally other attributes.
+    *   Add one blank new line after each block.
