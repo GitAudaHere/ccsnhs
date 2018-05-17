@@ -196,7 +196,7 @@ th {
 
 #logo {
     height: 187px;
-    width: 506px;6
+    width: 506px;
     margin-top: 40px;
 }
 
@@ -209,11 +209,11 @@ th {
 }
 
 #news {
-    /* float: left; */
+    float: left;
     border: 1px solid black;
     width: 55%;
-    margin: 0px 5px 5px 0px;
-    display: inline-block;
+    margin: auto;
+    /* display: inline-block; */
 }
 
 #site-header {
