@@ -184,8 +184,7 @@ th {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 100px;
-    border: 1px solid black;
+    border: 1px solid blue;
 }
 
 #header-menu {
@@ -197,7 +196,7 @@ th {
 
 #logo {
     height: 187px;
-    width: 506px;
+    width: 506px;6
     margin-top: 40px;
 }
 
@@ -210,10 +209,11 @@ th {
 }
 
 #news {
-    float: left;
+    /* float: left; */
     border: 1px solid black;
     width: 55%;
     margin: 0px 5px 5px 0px;
+    display: inline-block;
 }
 
 #site-header {
@@ -233,7 +233,8 @@ th {
 }
 
 #upcoming-wrapper {
-    float: right;
+    /* float: right; */
     border: 1px solid red;
     width: 40%;
+    display: inline-block;
 }
