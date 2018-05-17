@@ -182,7 +182,9 @@ th {
 
 #front-page-wrapper {
     width: 70%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
     border: 1px solid black;
 }
 
@@ -210,6 +212,8 @@ th {
 #news {
     float: left;
     border: 1px solid black;
+    width: 55%;
+    margin: 0px 5px 5px 0px;
 }
 
 #site-header {
@@ -220,16 +224,16 @@ th {
 
 #upcoming-events {
     border: 1px solid black;
-    width: 300px;
+    margin: 5px 0px 5px 10px;
 }
 
 #upcoming-meetings {
     border: 1px solid black;
-    width: 300px;
-    margin-bottom: 40px;
+    margin: 0px 0px 5px 10px;
 }
 
 #upcoming-wrapper {
     float: right;
     border: 1px solid red;
+    width: 40%;
 }
