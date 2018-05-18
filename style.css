@@ -132,7 +132,12 @@ th {
     width: 100%;
 }
 
+.upcoming-table > tbody > tr > td {
+    padding-left: 20px;
+}
+
 .upcoming-table-title {
+    padding-bottom: 10px;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -195,6 +200,7 @@ th {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    /* border: 1px solid black; */
 }
 
 #header-menu {
@@ -222,7 +228,7 @@ th {
     float: left;
     width: 55%;
     margin: auto;
-    /* display: inline-block; */
+    /* border: 1px solid black; */
 }
 
 #site-header {
@@ -233,14 +239,16 @@ th {
 
 #upcoming-events {
     margin: 5px 0px 5px 10px;
+    /* border: 1px solid black; */
 }
 
 #upcoming-meetings {
     margin: 0px 0px 5px 10px;
+    /* border: 1px solid black; */
 }
 
 #upcoming-wrapper {
-    /* float: right; */
     width: 40%;
     display: inline-block;
+    /* border: 1px solid black; */
 }
