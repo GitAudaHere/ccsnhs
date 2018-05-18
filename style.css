@@ -211,6 +211,11 @@ th {
     background-color: #273B59;
 }
 
+#footer-text {
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+
 #front-page-wrapper {
     width: 90%;
     margin-left: auto;
