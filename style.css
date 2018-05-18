@@ -246,16 +246,18 @@ th {
 #news {
     float: left;
     width: 45%;
-    margin-left: 100px;
-    border: 1px solid black;
+    margin-left: 5%;
+    /* border: 1px solid black; */
 }
 
 #news-header {
-    padding-bottom: 10px;
+    margin: 0px;
+    padding: 8px 8px 10px 8px;
     border-bottom: 4px solid #273859;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 20px;
     color: #273B59;
 }
 
@@ -263,10 +265,6 @@ th {
     height: 380px;
     padding-left: 2.2%;
     padding-right: 2.2%;
-}
-
-#tutoring-text {
-    margin-bottom: 50px;
 }
 
 #scrollable-news {
@@ -277,6 +275,10 @@ th {
 
 #scrollable-news > li {
     padding-bottom: 50px;
+}
+
+#tutoring-text {
+    margin-bottom: 50px;
 }
 
 #upcoming-events {
@@ -292,6 +294,7 @@ th {
 #upcoming-wrapper {
     float: right;
     width: 40%;
+    margin-right: 5%;
     /* display: inline-block; */
     /* border: 1px solid black; */
 }
