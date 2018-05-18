@@ -200,12 +200,12 @@ th {
 
 #first-activity {
     /* background-color: #CCCCCC; */
-    font-size: 16px;
+    font-size: 18px;
     color: #3d568d;
 }
 
 #front-page-wrapper {
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid black; */
@@ -238,9 +238,18 @@ th {
 
 #news {
     float: left;
-    width: 55%;
-    margin: auto;
-    /* border: 1px solid black; */
+    width: 45%;
+    margin-left: 100px;
+    border: 1px solid black;
+}
+
+#news-header {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #273859;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #273B59;
 }
 
 #site-header {
@@ -251,6 +260,16 @@ th {
 
 #tutoring-text {
     margin-bottom: 50px;
+}
+
+#scrollable-news {
+    padding: 0px;
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+#scrollable-news > li {
+    padding-bottom: 50px;
 }
 
 #upcoming-events {
@@ -264,7 +283,8 @@ th {
 }
 
 #upcoming-wrapper {
+    float: right;
     width: 40%;
-    display: inline-block;
+    /* display: inline-block; */
     /* border: 1px solid black; */
 }
