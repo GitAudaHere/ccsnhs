@@ -130,6 +130,7 @@ th {
 
 .upcoming-table {
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .upcoming-table > tbody > tr > td {
@@ -138,6 +139,7 @@ th {
 
 .upcoming-table-title {
     padding-bottom: 10px;
+    border-bottom: 4px solid #273859;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -193,7 +195,9 @@ th {
 }
 
 #first-activity {
-    background-color: #CCCCCC;
+    /* background-color: #CCCCCC; */
+    font-size: 16px;
+    color: #3d568d;
 }
 
 #front-page-wrapper {
