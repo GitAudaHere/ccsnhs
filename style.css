@@ -128,6 +128,17 @@ th {
     margin-bottom: 100px;
 }
 
+.upcoming-table {
+    width: 100%;
+}
+
+.upcoming-table-title {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #273B59;
+}
+
 /* ---------[ IDs ]--------- */
 
 #about-wrapper {
@@ -184,7 +195,6 @@ th {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid blue;
 }
 
 #header-menu {
@@ -210,7 +220,6 @@ th {
 
 #news {
     float: left;
-    border: 1px solid black;
     width: 55%;
     margin: auto;
     /* display: inline-block; */
@@ -223,18 +232,15 @@ th {
 }
 
 #upcoming-events {
-    border: 1px solid black;
     margin: 5px 0px 5px 10px;
 }
 
 #upcoming-meetings {
-    border: 1px solid black;
     margin: 0px 0px 5px 10px;
 }
 
 #upcoming-wrapper {
     /* float: right; */
-    border: 1px solid red;
     width: 40%;
     display: inline-block;
 }
