@@ -11,6 +11,10 @@ body {
     font-family: "Nunito";
 }
 
+caption {
+    font-size: 220%;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -132,7 +136,12 @@ th {
     width: 100%;
 }
 
+.upcoming-table > tbody > tr > td {
+    padding-left: 20px;
+}
+
 .upcoming-table-title {
+    padding-bottom: 10px;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -195,6 +204,7 @@ th {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    /* border: 1px solid black; */
 }
 
 #header-menu {
@@ -202,6 +212,10 @@ th {
     padding-right: 2.2%;
     display: inline-block;
     margin-bottom: 40px;
+}
+
+#keyrow {
+    padding-bottom: 10px;
 }
 
 #logo {
@@ -222,7 +236,7 @@ th {
     float: left;
     width: 55%;
     margin: auto;
-    /* display: inline-block; */
+    /* border: 1px solid black; */
 }
 
 #site-header {
@@ -231,16 +245,22 @@ th {
     padding-right: 2.2%;
 }
 
+#tutoring-text {
+    margin-bottom: 50px;
+}
+
 #upcoming-events {
     margin: 5px 0px 5px 10px;
+    /* border: 1px solid black; */
 }
 
 #upcoming-meetings {
     margin: 0px 0px 5px 10px;
+    /* border: 1px solid black; */
 }
 
 #upcoming-wrapper {
-    /* float: right; */
     width: 40%;
     display: inline-block;
+    /* border: 1px solid black; */
 }
