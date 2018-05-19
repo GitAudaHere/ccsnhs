@@ -209,11 +209,13 @@ th {
     height: 100px;
     margin-top: 100px;
     background-color: #273B59;
+    display: inline-block;
 }
 
 #footer-text {
-    padding-top: 30px;
+    padding-top: 20px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 #front-page-wrapper {
