@@ -9,6 +9,8 @@ a {
 
 body {
     font-family: "Nunito";
+    margin: 0;
+    padding: 0;
 }
 
 caption {
@@ -210,11 +212,13 @@ th {
     padding-left: 2.2%;
     padding-right: 2.2%;
     background-color: #273B59;
+    display: inline-block;
 }
 
 #footer-text {
-    padding-top: 30px;
+    padding-top: 20px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 #front-page-wrapper {
@@ -258,7 +262,7 @@ th {
 
 #news-header {
     margin: 0px;
-    padding: 8px 8px 10px 8px;
+    padding: 10px 8px 10px 8px;
     border-bottom: 4px solid #273859;
     text-align: left;
     text-transform: uppercase;
