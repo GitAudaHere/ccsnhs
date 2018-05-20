@@ -284,7 +284,14 @@ th {
 }
 
 #scrollable-news > li {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e8e9;
+    margin-bottom: 25px;
+}
+
+#scrollable-news > li > a {
+    color: #42c5f4;
+    text-decoration: underline;
 }
 
 #tutoring-text {

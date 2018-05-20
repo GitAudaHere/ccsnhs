@@ -10,20 +10,23 @@ necessary.
 
 -> Reformat the headings (h1, h2, etc.) so that you don't have to change
     each one specifically.
+    [RESOLVED]
 
 -> Add title for the events page.
+    [RESOLVED]
 
 -> Add picture to the pages. (Need to get pictures from Yearbook (Abby?))
 
 -> Add descriptions of officer roles.
+    [RESOLVED]
 
 -> Add a "back to top" button.
 
 -> Add a footer (maybe a disclaimer?)
-
--> Add icons (Where?)
+    [RESOLVED]
 
 -> Add mission statement? (This should be in "About > Our Mission")
+    [RESOLVED]
 
 -> Add by-laws page? (By-laws should go in "Our Requirements")
 
@@ -37,6 +40,7 @@ necessary.
 -> Brief list of upcoming events.
 
 -> Society news and reminders on the left.
+    [RESOLVED]
 
 
 ******| Problems |******
@@ -62,3 +66,4 @@ necessary.
 -> There is a slight delay between hovering over a dropdown element
     and the element changing color when the elements are highlighted in
     rapid succession.
+    [RESOLVED]
