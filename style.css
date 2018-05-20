@@ -207,10 +207,9 @@ th {
 }
 
 #footer {
-    /* width: 100%; */
+    width: 100%;
     height: 100px;
-    padding-left: 2.2%;
-    padding-right: 2.2%;
+    margin-top: 100px;
     background-color: #273B59;
     display: inline-block;
 }
