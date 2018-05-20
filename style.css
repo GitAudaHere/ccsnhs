@@ -8,9 +8,9 @@ a {
 }
 
 body {
-    font-family: "Nunito";
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: "Nunito";
     overflow-x: hidden;
 }
 
@@ -19,23 +19,23 @@ caption {
 }
 
 h1 {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #e5e8e9;
+    margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
     font-size: 24px;
-    padding-bottom: 10px;
-    border-bottom: 4px solid #e5e8e9;
-    margin-bottom: 30px;
 }
 
 h2 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e5e8e9;
+    margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
     font-size: 18px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #e5e8e9;
-    margin-bottom: 20px;
 }
 
 h3 {
@@ -48,14 +48,14 @@ iframe {
 }
 
 td {
-    text-align: left;
     padding: 8px;
+    text-align: left;
 }
 
 th {
-    text-align: center;
     padding: 8px 8px 25px 8px;
     border-bottom: 3px solid #e5e8e9;
+    text-align: center;
     font-size: 20px;
 }
 
@@ -74,15 +74,15 @@ th {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
     padding: 10px;
     border-bottom: 0px solid #42c5f4;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
     margin-top: 42px;
+    display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 127px;
@@ -90,8 +90,8 @@ th {
 }
 
 .dropdown-content > a {
-    color: black;
     padding: 12px 16px;
+    color: black;
     text-decoration: none;
     display: block;
     font-size: 14px;
@@ -104,15 +104,14 @@ th {
 }
 
 .dropdown-menu {
-    color: white;
+    height: 32px;
     padding: 10px;
+    color: white;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
-    height: 32px;
-    /* Is line-height necessary? */
     line-height: 32px;
     display: inline-flex;
-    text-transform: uppercase;
 }
 
 .event-content {
@@ -120,9 +119,9 @@ th {
 }
 
 .form-wrapper {
+    width: 800px; /* Has to be the same as .submission-forms width */
     margin-left: auto;
     margin-right: auto;
-    width: 800px; /* Has to be the same as .submission-forms width */
 }
 
 .members-wrapper {
@@ -162,20 +161,30 @@ th {
 }
 
 #banner {
+    margin: -8px;
     background-image: url("Images/bannerBG.png");
     background-repeat: repeat-x;
-    margin: -8px;
 }
 
 #bylaws {
-    width: 70%;
+    width: 60%;
     margin: auto;
     line-height: 1.5;
 }
 
 #bylaws-dropdown {
+    width: 60%;
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+#bylaws-dropdown-title {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 #contact-intro {
@@ -188,13 +197,15 @@ th {
 }
 
 #events-panel-left {
-    float: left;
+    padding-right: 20px;
+    border-right: 1px solid #e5e8e9;
     margin-left: 8%;
+    float: left;
 }
 
 #events-panel-right {
-    float: right;
     margin-right: 15%;
+    float: right;
 }
 
 #events-title {
@@ -231,8 +242,9 @@ th {
 #header-menu {
     padding-left: 2.2%;
     padding-right: 2.2%;
-    display: inline-block;
+    padding-bottom: 8px;
     margin-bottom: 40px;
+    display: inline-block;
 }
 
 #keyrow {
@@ -240,8 +252,8 @@ th {
 }
 
 #logo {
-    height: 187px;
     width: 506px;
+    height: 187px;
     margin-top: 40px;
 }
 
@@ -254,21 +266,28 @@ th {
 }
 
 #news {
-    float: left;
     width: 45%;
+    padding-right: 35px;
+    border-right: 1px solid #e5e8e9;
     margin-left: 5%;
+    float: left;
     /* border: 1px solid black; */
 }
 
 #news-header {
-    margin: 0px;
     padding: 10px 8px 10px 8px;
     border-bottom: 4px solid #273859;
+    margin: 0px;
+    color: #273B59;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
-    color: #273B59;
+}
+
+#requirements {
+    width: 70%;
+    margin: auto;
 }
 
 #site-header {
@@ -278,20 +297,24 @@ th {
 }
 
 #scrollable-news {
-    padding: 0px;
-    overflow-y: scroll;
     max-height: 600px;
+    padding: 0px 0px 0px 20px;
+    overflow-y: scroll;
 }
 
 #scrollable-news > li {
     padding-bottom: 10px;
-    border-bottom: 1px solid #e5e8e9;
+    border-bottom: 1px solid #32a5cc;
     margin-bottom: 25px;
 }
 
 #scrollable-news > li > a {
     color: #42c5f4;
     text-decoration: underline;
+}
+
+#tutoring {
+    width: 60%;
 }
 
 #tutoring-text {
@@ -304,14 +327,13 @@ th {
 }
 
 #upcoming-meetings {
-    margin: 0px 0px 5px 10px;
+    margin: 0px 0px 15px 10px;
     /* border: 1px solid black; */
 }
 
 #upcoming-wrapper {
-    float: right;
     width: 40%;
     margin-right: 5%;
-    /* display: inline-block; */
+    float: right;
     /* border: 1px solid black; */
 }
