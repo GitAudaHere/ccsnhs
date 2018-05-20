@@ -15,28 +15,18 @@ necessary.
 
 -> Add picture to the pages. (Need to get pictures from Yearbook (Abby?))
 
--> Add descriptions of officer roles.
-
 -> Add a "back to top" button.
-
--> Add a footer (maybe a disclaimer?)
 
 -> Add icons (Where?)
 
--> Add mission statement? (This should be in "About > Our Mission")
-
--> Add by-laws page? (By-laws should go in "Our Requirements")
-
--> Add tutoring page (This could go under "Resources" or something)
+-> Add tutoring calendar to tutoring page
 
 -> List the next 5 meetings
     -> Highlight the next one
     -> Slightly different highlight for the next two
     -> Accentuate major changes such as an afterschool meeting.
 
--> Brief list of upcoming events.
-
--> Society news and reminders on the left.
+-> Add news to society news div
 
 
 ******| Problems |******
