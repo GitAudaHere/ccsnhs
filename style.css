@@ -8,10 +8,10 @@ a {
 }
 
 body {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     font-family: "Nunito";
-    overflow-x: hidden;
 }
 
 caption {
@@ -24,8 +24,8 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: normal;
     font-size: 24px;
+    font-weight: normal;
 }
 
 h2 {
@@ -34,8 +34,8 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: normal;
     font-size: 18px;
+    font-weight: normal;
 }
 
 h3 {
@@ -74,18 +74,18 @@ th {
 }
 
 .dropdown {
+    position: relative;
     padding: 10px;
     border-bottom: 0px solid #42c5f4;
-    position: relative;
     display: inline-block;
 }
 
 .dropdown-content {
-    margin-top: 42px;
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
     min-width: 127px;
+    position: absolute;
+    margin-top: 42px;
+    background-color: #f1f1f1;
+    display: none;
     z-index: 1;
 }
 
@@ -93,12 +93,11 @@ th {
     padding: 12px 16px;
     color: black;
     text-decoration: none;
-    display: block;
     font-size: 14px;
+    display: block;
 }
 
 .dropdown-content > a:hover {
-    /* background-color: #807575; */
     background-color: #273B59;
     color: #42c5f4;
 }
@@ -106,11 +105,11 @@ th {
 .dropdown-menu {
     height: 32px;
     padding: 10px;
+    line-height: 32px;
     color: white;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
-    line-height: 32px;
     display: inline-flex;
 }
 
@@ -120,8 +119,8 @@ th {
 
 .form-wrapper {
     width: 800px; /* Has to be the same as .submission-forms width */
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .members-wrapper {
@@ -146,32 +145,30 @@ th {
 .upcoming-table-title {
     padding-bottom: 10px;
     border-bottom: 4px solid #273B59;
+    color: #273B59;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
-    color: #273B59;
 }
 
 /* ---------[ IDs ]--------- */
 
 #about-wrapper {
     width: 50%;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 #back-to-top-button {
-    height: 100px;
-    width: 50px;
+    position: fixed;
     right: 40px;
     z-index: 99;
-    position: fixed;
 }
 
 #banner {
     margin: -8px;
-    background-image: url("Images/bannerBG.png");
     background-repeat: repeat-x;
+    background-image: url("Images/bannerBG.png");
 }
 
 #bylaws {
@@ -184,7 +181,6 @@ th {
 #bylaws-dropdown {
     width: 80%;
     height: 100px;
-    /* border: 1px solid black; */
     margin: auto;
 }
 
@@ -228,9 +224,8 @@ th {
 }
 
 #first-activity {
-    /* background-color: #CCCCCC; */
-    font-size: 18px;
     color: #3d568d;
+    font-size: 18px;
 }
 
 #footer {
@@ -249,15 +244,14 @@ th {
 
 #front-page-wrapper {
     width: 90%;
-    margin-left: auto;
     margin-right: auto;
-    /* border: 1px solid black; */
+    margin-left: auto;
 }
 
 #header-menu {
-    padding-left: 2.2%;
     padding-right: 2.2%;
     padding-bottom: 8px;
+    padding-left: 2.2%;
     margin-bottom: 40px;
     display: inline-block;
 }
@@ -286,7 +280,6 @@ th {
     border-right: 1px solid #e5e8e9;
     margin-left: 5%;
     float: left;
-    /* border: 1px solid black; */
 }
 
 #news-header {
@@ -296,8 +289,8 @@ th {
     color: #273B59;
     text-align: left;
     text-transform: uppercase;
-    font-weight: 500;
     font-size: 20px;
+    font-weight: 500;
 }
 
 #requirements {
@@ -307,8 +300,8 @@ th {
 
 #site-header {
     height: 380px;
-    padding-left: 2.2%;
     padding-right: 2.2%;
+    padding-left: 2.2%;
 }
 
 #scrollable-news {
@@ -344,17 +337,14 @@ th {
 
 #upcoming-events {
     margin: 5px 0px 5px 10px;
-    /* border: 1px solid black; */
 }
 
 #upcoming-meetings {
     margin: 0px 0px 15px 10px;
-    /* border: 1px solid black; */
 }
 
 #upcoming-wrapper {
     width: 40%;
     margin-right: 5%;
     float: right;
-    /* border: 1px solid black; */
 }

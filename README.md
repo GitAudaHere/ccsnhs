@@ -36,6 +36,42 @@ Honor Society website.
         styling of classes in the second, and the styling of ids
         in the third.
     *   Each section should be sorted alphabetically.
-    *   List spacing attributes first, then size, then styling,
-        and finally other attributes.
-    *   Add one blank new line after each block.
+    *   When listing a given element's properties in CSS, use the
+        following order:
+        *   Sizing properties
+            *   width
+            *   height
+            *   min-width
+            *   min-height
+        *   Positioning properties (padding, border, margin, etc.)
+            *   padding
+            *   border
+            *   margin
+            *   float
+            *   overflow
+            *   overflow-x
+            *   overflow-y
+            *   (Note: Directional properties such as
+            margin-bottom or right must be listed in compass rose
+            order (i.e. top, right, bottom, left).)
+        *   Styling properties
+            *   background-color
+            *   color
+        *   Text-styling properties
+            *   text-align
+            *   text-transform
+            *   font-size
+            *   font-style
+            *   font-weight
+        *   Display properties
+            *   display
+            *   z-index
+        *   Other properties
+        *   (Note: If a property contains a URL, it must be placed
+            towards the bottom of the property list.)
+        *   Properties not specifically given an order are left to
+            the discretion of the developer.
+    *   Add one new blank line after each CSS block.
+3.  JavaScript
+    *   Always include a comment on the line above each JavaScript
+        function detailing the action which that function performs.
