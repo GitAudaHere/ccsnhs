@@ -163,7 +163,7 @@ th {
 #back-to-top-button {
     height: 100px;
     width: 50px;
-    margin-left: 20px;
+    right: 20px;
     position: fixed;
 }
 
