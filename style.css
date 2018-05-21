@@ -145,7 +145,7 @@ th {
 
 .upcoming-table-title {
     padding-bottom: 10px;
-    border-bottom: 4px solid #273859;
+    border-bottom: 4px solid #273B59;
     text-align: left;
     text-transform: uppercase;
     font-weight: 500;
@@ -182,7 +182,7 @@ th {
 }
 
 #bylaws-dropdown {
-    width: 60%;
+    width: 80%;
     height: 100px;
     /* border: 1px solid black; */
     margin: auto;
@@ -190,9 +190,13 @@ th {
 
 #bylaws-dropdown-btn {
     width: 100%;
-    padding-bottom: 15px;
+    padding: 15px;
+    border: none;
+    border-bottom: 0px solid #42c5f4;
     margin: auto;
     margin-bottom: 20px;
+    background: #273B59;
+    color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -287,7 +291,7 @@ th {
 
 #news-header {
     padding: 10px 8px 10px 8px;
-    border-bottom: 4px solid #273859;
+    border-bottom: 4px solid #273B59;
     margin: 0px;
     color: #273B59;
     text-align: left;

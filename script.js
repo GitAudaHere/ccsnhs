@@ -8,24 +8,25 @@ $(document).ready(function(){
     }, function(){
         $(this).find("div").fadeOut(duration);
         $(".dropdown").stop(true, true).animate({color: "#FFFFFF"}, duration);
-        $(".dropdown").stop(true, true).css({paddingBottom: "10px"}, duration);
-        $(".dropdown").stop(true, true).css({borderBottomWidth: "0px"}, duration);
+        $(".dropdown").stop(true, true).css({paddingBottom: "10px"});
+        $(".dropdown").stop(true, true).css({borderBottomWidth: "0px"});
     });
 
     /* Menu item highlight animation */
     $(".dropdown").hover(function(){
         $(this).animate({color: "#42c5f4"}, duration);
-        $(this).css({paddingBottom: "30px"}, duration);
-        $(this).css({borderBottomWidth: "2px"}, duration);
+        $(this).css({paddingBottom: "30px"});
+        $(this).css({borderBottomWidth: "2px"});
     }, function(){
         if($(".dropdown-content:hover").length == 0)
         {
             $(this).stop(true, false).animate({color: "#FFFFFF"}, duration);
-            $(this).stop(true, false).css({paddingBottom: "10px"}, duration);
-            $(this).stop(true, false).css({borderBottomWidth: "0px"}, duration);
+            $(this).stop(true, false).css({paddingBottom: "10px"});
+            $(this).stop(true, false).css({borderBottomWidth: "0px"});
         }
     });
 
+    /* Bylaws animation */
     var bylaws_open = false;
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
@@ -38,24 +39,28 @@ $(document).ready(function(){
         }
     });
 
+    /* Back-to-top button fading */
     window.onscroll = function() {scroll()};
 
     function scroll() {
-        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             $("#top-button").fadeIn(duration);
         } else {
             $("#top-button").fadeOut(duration / 1.5);
         }
     }
 
-    function backToTop() {
+    /* Back-to-top button scrolling */
+    $("#top-button").click(function(){
         $("body,html").animate({
             scrollTop: 0
         }, 800);
         return false;
-    }
+    });
 
-    $("#top-button").click(function(){
-        backToTop();
+    $("button").hover(function(){
+        $(this).stop(true, true).animate({borderBottomWidth: "4px"}, duration / 2);
+    }, function(){
+        $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
     });
 });
