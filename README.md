@@ -36,6 +36,12 @@ Honor Society website.
         styling of classes in the second, and the styling of ids
         in the third.
     *   Each section should be sorted alphabetically.
-    *   List spacing attributes first, then size, then styling,
-        and finally other attributes.
+    *   When listing a given element's properties in CSS, use the
+        following order:
+        *   Sizing properties (width, height, etc.)
+        *   Positioning properties (padding, border, margin, etc.)
+        *   Styling properties (background-color, color, etc.)
+        *   Text-styling properties (font-style, text-decoration, etc.)
+        *   Display properties (display, z-index, etc.)
+        *   Other properties
     *   Add one blank new line after each block.
