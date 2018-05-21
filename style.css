@@ -312,12 +312,12 @@ th {
 
 #scrollable-news > li {
     padding-bottom: 10px;
-    border-bottom: 1px solid #32a5cc;
+    border-bottom: 1px solid #AAAAAA;
     margin-bottom: 25px;
 }
 
 #scrollable-news > li > a {
-    color: #42c5f4;
+    color: #42C5F4;
     text-decoration: underline;
 }
 
