@@ -72,6 +72,12 @@ Honor Society website.
         *   Properties not specifically given an order are left to
             the discretion of the developer.
     *   Add one new blank line after each CSS block.
+    *   All hexadecimal color values should be at least six characters
+        in length.
+    *   All letters in hexadecimal color values should be capitalized.
 3.  JavaScript
     *   Always include a comment on the line above each JavaScript
         function detailing the action which that function performs.
+    *   All hexadecimal color values should be at least six characters
+        in length.
+    *   All letters in hexadecimal color values should be capitalized.

@@ -14,7 +14,7 @@ $(document).ready(function(){
 
     /* Menu item highlight animation */
     $(".dropdown").hover(function(){
-        $(this).animate({color: "#42c5f4"}, duration);
+        $(this).animate({color: "#42C5F4"}, duration);
         $(this).css({paddingBottom: "30px"});
         $(this).css({borderBottomWidth: "2px"});
     }, function(){
