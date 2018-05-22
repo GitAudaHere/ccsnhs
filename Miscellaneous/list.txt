@@ -25,7 +25,10 @@ necessary.
 
 -> Add news to society news div.
 
+-> Add real meeting times to the upcoming meetings table.
+
 
 ******| Problems |******
+
 
 ******| Bugs |******
