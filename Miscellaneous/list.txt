@@ -14,7 +14,7 @@ necessary.
 
 -> Format the bylaws into dropdown sections.
 
--> Add tutoring calendar to tutoring page
+-> Add tutoring calendar to tutoring page.
 
 -> List the next 5 meetings
     -> Highlight the next one
@@ -23,7 +23,7 @@ necessary.
 
 -> Brief list of upcoming events.
 
--> Add news to society news div
+-> Add news to society news div.
 
 
 ******| Problems |******
