@@ -75,9 +75,17 @@ Honor Society website.
     *   All hexadecimal color values should be at least six characters
         in length.
     *   All letters in hexadecimal color values should be capitalized.
+
 3.  JavaScript
     *   Always include a comment on the line above each JavaScript
         function detailing the action which that function performs.
     *   All hexadecimal color values should be at least six characters
         in length.
     *   All letters in hexadecimal color values should be capitalized.
+
+4.  To-Do List
+    *   All problems and bugs must be reported in the specified section
+        of the list. Once a problem or bug appears to be fixed, add a
+        '[RESOLVED]' in the line below it. After seven days, all problems
+        and bugs marked with '[RESOLVED]' will be deleted from the to-do
+        list.

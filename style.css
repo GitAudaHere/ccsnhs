@@ -235,6 +235,10 @@ th {
     float: right;
 }
 
+#events-table {
+    margin-top: -10px;
+}
+
 #events-title {
     width: 80%;
 }

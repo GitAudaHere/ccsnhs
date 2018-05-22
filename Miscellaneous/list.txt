@@ -6,15 +6,15 @@ necessary.
 ================================
 
 
-******| TODO List |******
+******| To-Do List |******
 
--> Add picture to the pages. (Need to get pictures from Yearbook (Abby?))
-
--> Add a "back to top" button.
+-> Add pictures to the pages. (Need to get pictures from Yearbook (Abby?))
 
 -> Add icons (Where?)
 
--> Add tutoring calendar to tutoring page
+-> Format the bylaws into dropdown sections.
+
+-> Add tutoring calendar to tutoring page.
 
 -> List the next 5 meetings
     -> Highlight the next one
@@ -23,30 +23,9 @@ necessary.
 
 -> Brief list of upcoming events.
 
--> Add news to society news div
+-> Add news to society news div.
 
 
 ******| Problems |******
 
--> Formatting of the events section.
-    [RESOLVED]
-
--> Simplify the code for the margins and spacing of elements.
-
-
 ******| Bugs |******
-
--> The dropdown menu div starts from above the menu text.
-    This glitches out the animation. I think it is also because of this that
-    the color change animation happens twice when you stay on the text.
-    [RESOLVED]
-
--> When you hover over the menu text and don't wait for the animation to
-    complete, you can't click on the dropdown items because the slideUp
-    animation starts.
-    [RESOLVED]
-
--> There is a slight delay between hovering over a dropdown element
-    and the element changing color when the elements are highlighted in
-    rapid succession.
-    [RESOLVED]
