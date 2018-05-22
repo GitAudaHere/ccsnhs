@@ -31,6 +31,7 @@ h1 {
 h2 {
     padding-bottom: 15px;
     border-bottom: 2px solid #E5E8E9;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -63,6 +64,20 @@ th {
 
 .about-section {
     margin-bottom: 100px;
+}
+
+.article-dropdown {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.bylaws-article {
+    height: 100px;
+    display: none;
+}
+
+.bylaws-article-wrapper {
+    margin: 5px;
 }
 
 .contact-person {

@@ -44,7 +44,7 @@ $(document).ready(function(){
 
     function scroll() {
         if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            $("#top-button").fadeIn(duration);
+            $("#top-button").fadeIn(duration * 2);
         } else {
             $("#top-button").fadeOut(duration / 1.5);
         }
@@ -62,5 +62,20 @@ $(document).ready(function(){
         $(this).stop(true, true).animate({borderBottomWidth: "4px"}, duration / 2);
     }, function(){
         $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
+    });
+
+    var articleOpen = false;
+    $(".bylaws-article-wrapper").click(function(){
+        if (articleOpen == false)
+        {
+            $(this).slideDown(duration);
+            $(this).find(".bylaws-article").css({display: "inline-block"});
+            articleOpen = true;
+        }
+        else {
+            $(this).find(".bylaws-article").css({display: "none"});
+            $(this).slideUp(duration);
+            articleOpen = false;
+        }
     });
 });
