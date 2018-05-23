@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="with=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!--This is the title icon of the page-->
+        <link rel="shortcut icon" href="Images/NHS-LOGO-TM-711x900.ico" />
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+        <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+        
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <title>CCS NHS - Calendar</title>
+    </head>
+    <body>
+        <div id="banner">
+                <div id="site-header">
+                    <!--Replace the link with the url when set up-->
+                    <a href="home.html"><img src="Images/ccsnhsLogo.png" alt="CCS NHS Logo" id="logo" /></a>
+                    <div id="header-menu">
+                        <nav>
+                            <ul id="main-menu">
+                                <li class="dropdown-menu">
+                                        <a href="home.html" class="dropdown">Home</a>
+                                    </li>
+                                <li class="dropdown-menu">
+                                    <a href="#" class="dropdown">About</a>
+                                    <div class="dropdown-content">
+                                        <a href="mission.html">Our Mission</a>
+                                        <a href="members.html">Our Members</a>
+                                        <a href="requirements.html">Our Requirements</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu">
+                                    <a href="events.html" class="dropdown">Events</a>
+                                </li>
+                                <li class="dropdown-menu">
+                                    <a href="#" class="dropdown">• Resources</a>
+                                    <div class="dropdown-content">
+                                        <a href="#">• Calendar</a>
+                                        <a href="#">Documents</a>
+                                        <a href="hours.html">Hours</a>
+                                        <a href="tutoring.html">Tutoring</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown-menu">
+                                    <a href="contact.html" class="dropdown">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="back-to-top-button">
+                <img src="Images/backToTopButtonBlue.png" alt="back-to-top-button" id="top-button" title="Back to Top"/>
+            </div>
+
+            <center>
+                <p>This calendar lists the dates of every NHS event for the 2018-2019 school year.</p>
+
+                <iframe src="https://calendar.google.com/calendar/embed?src=ccs.us_ocbc83qt1u87uldndtdl8jrm4g%40group.calendar.google.com&ctz=America%2FNew_York" frameborder="0" scrolling="no" id="events-calendar"></iframe>
+            </center>
+
+            <div id="footer">
+                <p id="footer-text">This website was last updated May 2018.</p>
+            </div>
+
+    </body>
+</html>
