@@ -128,8 +128,13 @@ th {
     display: inline-flex;
 }
 
-.event-content {
+.events-content {
     width: 70%;
+}
+
+.events-text {
+    text-align: center;
+    width: 80%;
 }
 
 .form-wrapper {
@@ -229,15 +234,21 @@ th {
     border: 0;
 }
 
+#events-img {
+    margin: auto;
+    width: 100%;
+}
+
 #events-panel-left {
+    width: 56%;
     padding-right: 20px;
     border-right: 1px solid #E5E8E9;
-    margin-left: 8%;
+    margin-left: 4%;
     float: left;
 }
 
 #events-panel-right {
-    margin-right: 15%;
+    margin-right: 10%;
     float: right;
 }
 
