@@ -396,3 +396,62 @@ th {
         padding-bottom: 15%;
     }
 }
+
+@media only screen and (max-width: 1220px) {
+    #menu-icon {
+        display: block;
+    }
+
+    #news {
+        width: 80%;
+        height: auto;
+        border: none;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #upcoming-wrapper {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #upcoming-meetings {
+        width: 45%;
+        height: auto;
+        margin: 0px 0px 15px 10px;
+        float: left;
+    }
+
+    #upcoming-events {
+        width: 45%;
+        height: auto;
+        margin: 5px 0px 5px 10px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #upcoming-meetings {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    #upcoming-events {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+#menu-icon {
+    display: none;
+}
