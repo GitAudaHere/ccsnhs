@@ -185,7 +185,7 @@ th {
 
 #back-to-top-button {
     position: fixed;
-    right: 40px;
+    right: 1%;
     bottom: 120px;
     z-index: 99;
 }
@@ -318,10 +318,10 @@ th {
 }
 
 #news {
-    width: 45%;
-    padding-right: 75px;
+    width: 55%;
+    height: auto;
+    padding-right: 4%;
     border-right: 1px solid #E5E8E9;
-    margin-left: 5%;
     float: left;
 }
 
@@ -344,8 +344,6 @@ th {
 #site-header {
     width: 100%;
     height: auto;
-    /* padding-right: 2.2%; */
-    /* padding-left: 2.2%; */
 }
 
 #scrollable-news {
@@ -388,8 +386,8 @@ th {
 }
 
 #upcoming-wrapper {
-    width: 40%;
-    margin-right: 5%;
+    width: 35%;
+    margin-right: 7%;
     float: right;
 }
 
@@ -416,7 +414,7 @@ th {
     }
 
     #news {
-        width: 80%;
+        width: 90%;
         height: auto;
         border: none;
         margin: auto;
@@ -425,47 +423,60 @@ th {
     }
 
     #upcoming-wrapper {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
         display: block;
-        float: none;
+        float: left;
     }
 
     #upcoming-meetings {
         width: 45%;
         height: auto;
-        margin: 5px 0px 15px 10px;
+        padding-right: 3%;
+        border-right: 1px solid #E5E8E9;
+        margin-top: 5px;
         float: left;
     }
 
     #upcoming-events {
         width: 45%;
         height: auto;
-        margin: 5px 0px 5px 10px;
-        float: right;
+        padding-left: 1%;
+        margin-top: 5px;
+        display: inline-block;
     }
 }
 
 @media only screen and (max-width: 640px) {
 
+    #logo {
+        width: 300px;
+        height: auto;
+        margin-top: 5%;
+    }
+
     #menu-icon {
         display: none;
     }
 
+    #back-to-top-button {
+        display: none;
+    }
+
     #upcoming-meetings {
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        padding: none;
+        border: none;
+        margin: auto;
         float: none;
     }
 
     #upcoming-events {
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         float: none;
     }
 }
