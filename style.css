@@ -446,6 +446,11 @@ th {
 }
 
 @media only screen and (max-width: 640px) {
+
+    #menu-icon {
+        display: none;
+    }
+
     #upcoming-meetings {
         width: 90%;
         height: auto;
@@ -461,8 +466,4 @@ th {
         margin-right: auto;
         float: none;
     }
-}
-
-#menu-icon {
-    display: none;
 }
