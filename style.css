@@ -395,6 +395,7 @@ th {
 
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 1040px) {
+    
     #logo {
         width: 400px;
         height: auto;
@@ -409,6 +410,7 @@ th {
 }
 
 @media only screen and (max-width: 1220px) {
+
     #menu-icon {
         display: block;
     }
