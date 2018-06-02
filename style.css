@@ -337,6 +337,12 @@ th {
 }
 
 #requirements {
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+
+#requirements > article {
     width: 70%;
     margin: auto;
 }
