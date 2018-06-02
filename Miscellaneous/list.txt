@@ -9,19 +9,16 @@ necessary.
 ******| To-Do List |******
 
 -> Add pictures to the pages. (Need to get pictures from Yearbook (Abby?))
+-> UPDATE: Springer's looking to leave CCS. He's going to be no help in getting us
+    any photos. On top of this, there don't seem to be any photos of NHS events
+    anywhere. Maybe we should have historian take photos of events for the website?
 
 -> Add icons (Where?)
+-> UPDATE: I still don't get what this means.
 
 -> Format the bylaws into dropdown sections.
 
 -> Add tutoring calendar to tutoring page.
-
--> List the next 5 meetings
-    -> Highlight the next one
-    -> Slightly different highlight for the next two
-    -> Accentuate major changes such as an afterschool meeting.
-
--> Brief list of upcoming events.
 
 -> Add news to society news div.
 
@@ -32,3 +29,6 @@ necessary.
 
 
 ******| Bugs |******
+
+-> The dropdown sections in bylaws completely disappear when you try to collapse them.
+    Need to figure out how to keep them there.
