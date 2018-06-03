@@ -162,8 +162,8 @@ th {
     margin-bottom: 30px;
 }
 
-.upcoming-table > tbody > tr > td {
-    padding-left: 20px;
+.upcoming-table-data {
+    padding-left: 4%;
 }
 
 .upcoming-table-title {
@@ -399,7 +399,7 @@ th {
 
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 1040px) {
-    
+
     #logo {
         width: 400px;
         height: auto;
@@ -415,6 +415,18 @@ th {
 
 @media only screen and (max-width: 1220px) {
 
+    .upcoming-table-data {
+        font-size: 14px;
+    }
+
+    .upcoming-table-title {
+        font-size: 18px;
+    }
+
+    #first-activity {
+        font-size: 16px;
+    }
+
     #menu-icon {
         display: block;
     }
@@ -426,6 +438,10 @@ th {
         margin: auto;
         display: block;
         float: none;
+    }
+
+    #news-header {
+        font-size: 18px;
     }
 
     #upcoming-wrapper {
@@ -456,6 +472,26 @@ th {
 
 @media only screen and (max-width: 640px) {
 
+    .upcoming-table-data {
+        font-size: 16px;
+    }
+
+    .upcoming-table-title {
+        font-size: 20px;
+    }
+
+    #back-to-top-button {
+        display: none;
+    }
+
+    #bylaws {
+        width: 90%;
+    }
+
+    #first-activity {
+        font-size: 18px;
+    }
+
     #logo {
         width: 300px;
         height: auto;
@@ -466,8 +502,8 @@ th {
         display: none;
     }
 
-    #back-to-top-button {
-        display: none;
+    #requirements > article {
+        width: 90%;
     }
 
     #upcoming-meetings {

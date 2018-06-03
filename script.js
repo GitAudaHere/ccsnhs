@@ -64,17 +64,17 @@ $(document).ready(function(){
         $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
     });
 
+
+    // Bylaws Article animation
     var articleOpen = false;
     $(".bylaws-article-wrapper").click(function(){
         if (articleOpen == false)
         {
-            $(this).slideDown(duration);
             $(this).find(".bylaws-article").css({display: "inline-block"});
             articleOpen = true;
         }
         else {
             $(this).find(".bylaws-article").css({display: "none"});
-            $(this).slideUp(duration);
             articleOpen = false;
         }
     });
