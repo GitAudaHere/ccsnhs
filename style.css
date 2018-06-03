@@ -266,7 +266,7 @@ th {
     width: 80%;
 }
 
-#first-activity {
+#first-activity > td {
     color: #3D568D;
     font-size: 18px;
 }
@@ -423,7 +423,11 @@ th {
         font-size: 18px;
     }
 
-    #first-activity {
+    #about-wrapper {
+        width: 70%;
+    }
+
+    #first-activity > td {
         font-size: 16px;
     }
 
@@ -464,7 +468,7 @@ th {
     #upcoming-events {
         width: 45%;
         height: auto;
-        padding-left: 1%;
+        padding-left: 1.5%;
         margin-top: 5px;
         display: inline-block;
     }
@@ -473,11 +477,15 @@ th {
 @media only screen and (max-width: 640px) {
 
     .upcoming-table-data {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .upcoming-table-title {
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    #about-wrapper {
+        width: 90%;
     }
 
     #back-to-top-button {
@@ -488,8 +496,8 @@ th {
         width: 90%;
     }
 
-    #first-activity {
-        font-size: 18px;
+    #first-activity > td {
+        font-size: 14px;
     }
 
     #logo {
