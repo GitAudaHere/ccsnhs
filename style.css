@@ -427,6 +427,27 @@ th {
         width: 70%;
     }
 
+    #contact-wrapper {
+        width: 80%;
+        margin-left: 5%;
+        float: left;
+    }
+
+    #events-panel-left {
+        width: 90%;
+        border: none;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #events-panel-right {
+        width: 90%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
     #first-activity > td {
         font-size: 16px;
     }
@@ -494,6 +515,28 @@ th {
 
     #bylaws {
         width: 90%;
+    }
+
+    #contact-wrapper {
+        width: 85%;
+        margin: auto;
+        float: none;
+    }
+
+    #events-panel-left {
+        width: 95%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #events-panel-right {
+        width: 95%;
+        padding: none;
+        border: none;
+        margin: auto;
+        display: block;
+        float: none;
     }
 
     #first-activity > td {
