@@ -147,6 +147,11 @@ th {
     margin-left: auto;
 }
 
+.hamburger-sizer {
+    width: 30px;
+    height: auto;
+}
+
 .members-wrapper {
     margin-bottom: 150px;
 }
@@ -400,6 +405,10 @@ th {
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 1040px) {
 
+    #hamburger {
+        display: none;
+    }
+
     #logo {
         width: 400px;
         height: auto;
@@ -450,6 +459,10 @@ th {
 
     #first-activity > td {
         font-size: 16px;
+    }
+
+    #hamburger {
+        display: none;
     }
 
     #menu-icon {
@@ -541,6 +554,10 @@ th {
 
     #first-activity > td {
         font-size: 14px;
+    }
+
+    #hamburger {
+        display: inline-block;
     }
 
     #logo {
