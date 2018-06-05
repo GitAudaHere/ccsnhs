@@ -415,6 +415,10 @@ th {
         margin-top: 40px;
     }
 
+    #main-menu {
+        float: right;
+    }
+
     #site-header {
         width: 100%;
         height: auto;
@@ -463,6 +467,10 @@ th {
 
     #hamburger {
         display: none;
+    }
+
+    #main-menu {
+        float: right;
     }
 
     #menu-icon {
@@ -564,6 +572,10 @@ th {
         width: 300px;
         height: auto;
         margin-top: 5%;
+    }
+
+    #main-menu {
+        display: none;
     }
 
     #menu-icon {
