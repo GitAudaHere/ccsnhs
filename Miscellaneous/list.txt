@@ -29,6 +29,3 @@ necessary.
 
 
 ******| Bugs |******
-
--> The dropdown sections in bylaws completely disappear when you try to collapse them.
-    Need to figure out how to keep them there.
