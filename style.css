@@ -545,19 +545,39 @@ th {
     }
 
     #events-panel-left {
-        width: 95%;
+        width: 90%;
         margin: auto;
         display: block;
         float: none;
     }
 
     #events-panel-right {
-        width: 95%;
+        width: 90%;
         padding: none;
         border: none;
         margin: auto;
         display: block;
         float: none;
+    }
+
+    #events-panel-right > article > h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    #events-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #events-table > tbody > tr > td {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    #events-title {
+        font-size: 20px;
     }
 
     #first-activity > td {
