@@ -147,6 +147,10 @@ th {
     margin-left: auto;
 }
 
+.hamburger-item {
+    color: #000000;
+}
+
 .hamburger-sizer {
     width: 30px;
     height: auto;
@@ -296,6 +300,15 @@ th {
     margin-left: auto;
 }
 
+#hamburger-menu {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding-right: 30px;
+    position: absolute;
+    right: 9%;
+    top: 140px;
+}
+
 #header-menu {
     padding-right: 2.2%;
     padding-bottom: 8px;
@@ -409,6 +422,10 @@ th {
         display: none;
     }
 
+    #hamburger-menu {
+        display: none;
+    }
+
     #logo {
         width: 400px;
         height: auto;
@@ -466,6 +483,10 @@ th {
     }
 
     #hamburger {
+        display: none;
+    }
+
+    #hamburger-menu {
         display: none;
     }
 
@@ -586,6 +607,10 @@ th {
 
     #hamburger {
         display: inline-block;
+    }
+
+    #hamburger-menu {
+        display: none;
     }
 
     #logo {
