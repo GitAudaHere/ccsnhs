@@ -157,6 +157,15 @@ th {
     margin-bottom: 100px;
 }
 
+.text-link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.text-link:hover {
+    color: #777777;
+}
+
 .upcoming-table {
     width: 100%;
     margin-bottom: 30px;
