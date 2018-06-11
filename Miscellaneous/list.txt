@@ -16,8 +16,6 @@ necessary.
 -> Add icons (Where?)
 -> UPDATE: I still don't get what this means.
 
--> Format the bylaws into dropdown sections.
-
 -> Add tutoring calendar to tutoring page.
 
 -> Add news to society news div.
@@ -29,6 +27,3 @@ necessary.
 
 
 ******| Bugs |******
-
--> The dropdown sections in bylaws completely disappear when you try to collapse them.
-    Need to figure out how to keep them there.
