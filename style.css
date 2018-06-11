@@ -149,12 +149,17 @@ th {
 }
 
 .hamburger-item {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .hamburger-sizer {
     width: 30px;
     height: auto;
+}
+
+.link {
+    color: #42C5F4;
+    text-decoration: underline;
 }
 
 .members-wrapper {
@@ -305,7 +310,7 @@ th {
 }
 
 #hamburger-menu {
-    background-color: #FFFFFF;
+    background-color: #152136;
     border: 1px solid #000000;
     padding-right: 30px;
     position: absolute;
