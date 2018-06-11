@@ -142,9 +142,24 @@ th {
 }
 
 .form-wrapper {
-    width: 800px; /* Has to be the same as .submission-forms width */
+    width: 80%; /* Has to be the same as .submission-forms width */
     margin-right: auto;
     margin-left: auto;
+    display: block;
+}
+
+.hamburger-item {
+    color: #FFFFFF;
+}
+
+.hamburger-sizer {
+    width: 30px;
+    height: auto;
+}
+
+.link {
+    color: #42C5F4;
+    text-decoration: underline;
 }
 
 .members-wrapper {
@@ -152,9 +167,12 @@ th {
 }
 
 .submission-forms {
-    width: 800px;
+    width: 100%;
     height: 900px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 100px;
+    display: block;
 }
 
 .text-link {
@@ -171,8 +189,8 @@ th {
     margin-bottom: 30px;
 }
 
-.upcoming-table > tbody > tr > td {
-    padding-left: 20px;
+.upcoming-table-data {
+    padding-left: 4%;
 }
 
 .upcoming-table-title {
@@ -194,7 +212,7 @@ th {
 
 #back-to-top-button {
     position: fixed;
-    right: 40px;
+    right: 1%;
     bottom: 120px;
     z-index: 99;
 }
@@ -275,7 +293,7 @@ th {
     width: 80%;
 }
 
-#first-activity {
+#first-activity > td {
     color: #3D568D;
     font-size: 18px;
 }
@@ -298,6 +316,15 @@ th {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+}
+
+#hamburger-menu {
+    background-color: #152136;
+    border: 1px solid #000000;
+    padding-right: 30px;
+    position: absolute;
+    right: 9%;
+    top: 140px;
 }
 
 #header-menu {
@@ -327,10 +354,10 @@ th {
 }
 
 #news {
-    width: 45%;
-    padding-right: 35px;
+    width: 55%;
+    height: auto;
+    padding-right: 4%;
     border-right: 1px solid #E5E8E9;
-    margin-left: 5%;
     float: left;
 }
 
@@ -346,6 +373,12 @@ th {
 }
 
 #requirements {
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+}
+
+#requirements > article {
     width: 70%;
     margin: auto;
 }
@@ -353,8 +386,6 @@ th {
 #site-header {
     width: 100%;
     height: auto;
-    /* padding-right: 2.2%; */
-    /* padding-left: 2.2%; */
 }
 
 #scrollable-news {
@@ -397,17 +428,30 @@ th {
 }
 
 #upcoming-wrapper {
-    width: 40%;
-    margin-right: 5%;
+    width: 35%;
+    margin-right: 7%;
     float: right;
 }
 
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 1040px) {
+
+    #hamburger {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
     #logo {
         width: 400px;
         height: auto;
         margin-top: 40px;
+    }
+
+    #main-menu {
+        float: right;
     }
 
     #site-header {
@@ -418,12 +462,62 @@ th {
 }
 
 @media only screen and (max-width: 1220px) {
+
+    .upcoming-table-data {
+        font-size: 14px;
+    }
+
+    .upcoming-table-title {
+        font-size: 18px;
+    }
+
+    #about-wrapper {
+        width: 70%;
+    }
+
+    #contact-wrapper {
+        width: 80%;
+        margin-left: 5%;
+        float: left;
+    }
+
+    #events-panel-left {
+        width: 90%;
+        border: none;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #events-panel-right {
+        width: 90%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #first-activity > td {
+        font-size: 16px;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #main-menu {
+        float: right;
+    }
+
     #menu-icon {
         display: block;
     }
 
     #news {
-        width: 80%;
+        width: 90%;
         height: auto;
         border: none;
         margin: auto;
@@ -431,48 +525,143 @@ th {
         float: none;
     }
 
+    #news-header {
+        font-size: 18px;
+    }
+
     #upcoming-wrapper {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: auto;
         display: block;
-        float: none;
+        float: left;
     }
 
     #upcoming-meetings {
         width: 45%;
         height: auto;
-        margin: 5px 0px 15px 10px;
+        padding-right: 3%;
+        border-right: 1px solid #E5E8E9;
+        margin-top: 5px;
         float: left;
     }
 
     #upcoming-events {
         width: 45%;
         height: auto;
-        margin: 5px 0px 5px 10px;
-        float: right;
+        padding-left: 1.5%;
+        margin-top: 5px;
+        display: inline-block;
     }
 }
 
 @media only screen and (max-width: 640px) {
 
+    .upcoming-table-data {
+        font-size: 12px;
+    }
+
+    .upcoming-table-title {
+        font-size: 15px;
+    }
+
+    #about-wrapper {
+        width: 90%;
+    }
+
+    #back-to-top-button {
+        display: none;
+    }
+
+    #bylaws {
+        width: 90%;
+    }
+
+    #contact-wrapper {
+        width: 85%;
+        margin: auto;
+        float: none;
+    }
+
+    #events-panel-left {
+        width: 90%;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #events-panel-right {
+        width: 90%;
+        padding: none;
+        border: none;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    #events-panel-right > article > h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    #events-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #events-table > tbody > tr > td {
+        width: 50%;
+        font-size: 12px;
+    }
+
+    #events-title {
+        font-size: 20px;
+    }
+
+    #first-activity > td {
+        font-size: 14px;
+    }
+
+    #hamburger {
+        display: inline-block;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #logo {
+        width: 300px;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    #main-menu {
+        display: none;
+    }
+
     #menu-icon {
         display: none;
     }
 
-    #upcoming-meetings {
+    #requirements > article {
         width: 90%;
+    }
+
+    #upcoming-meetings {
+        width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        padding: none;
+        border: none;
+        margin: auto;
         float: none;
     }
 
     #upcoming-events {
-        width: 90%;
+        width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         float: none;
     }
 }

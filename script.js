@@ -26,6 +26,18 @@ $(document).ready(function(){
         }
     });
 
+    /* Fades the hamburger menu in and out */
+    var hamburger_open = false;
+    $("#hamburger").click(function(){
+        if(hamburger_open == false){
+            $("#hamburger-menu").fadeIn(duration);
+            hamburger_open = true;
+        } else {
+            $("#hamburger-menu").fadeOut(duration);
+            hamburger_open = false;
+        }
+    })
+
     /* Bylaws animation */
     var bylaws_open = false;
     $("#bylaws-dropdown-btn").click(function(){
@@ -58,23 +70,25 @@ $(document).ready(function(){
         return false;
     });
 
+    /* 
     $("button").hover(function(){
         $(this).stop(true, true).animate({borderBottomWidth: "4px"}, duration / 2);
     }, function(){
         $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
     });
+    */
 
+
+    // Bylaws Article animation
     var articleOpen = false;
     $(".bylaws-article-wrapper").click(function(){
         if (articleOpen == false)
         {
-            $(this).slideDown(duration);
             $(this).find(".bylaws-article").css({display: "inline-block"});
             articleOpen = true;
         }
         else {
             $(this).find(".bylaws-article").css({display: "none"});
-            $(this).slideUp(duration);
             articleOpen = false;
         }
     });

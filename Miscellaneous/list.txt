@@ -22,6 +22,21 @@ necessary.
 
 -> Add real meeting times to the upcoming meetings table.
 
+-> Add images to contacts.html
+
+
+---| Mobile Development |---
+
+-> Create a mobile members table with 2 columns
+
+-> Resize events.html text
+
+-> Fix calendar iframe
+
+-> Fix tutoring table
+
+-> 
+
 
 ******| Problems |******
 

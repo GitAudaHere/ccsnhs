@@ -19,8 +19,6 @@
         
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        
-        <script src="https://use.fontawesome.com/60cd860623.js"></script>
 
         <title>CCS NHS - Home</title>
     </head>
@@ -31,11 +29,11 @@
                 <!--Replace the link with the url when set up-->
                 <a href="home.html"><img src="Images/ccsnhsLogo.png" alt="CCS NHS Logo" id="logo"/></a>
                 <div id="header-menu">
-                    <i id="menu-icon" class="fa fa-bars"></i>
+                    <img class="hamburger-sizer" id="hamburger" src="Images/hamburger-button.png" />
                     <ul id="main-menu">
                         <li class="dropdown-menu">
                                 <a href="home.html" class="dropdown">• Home</a>
-                            </li>
+                        </li>
                         <li class="dropdown-menu">
                             <a href="#" class="dropdown">About</a>
                             <div class="dropdown-content">
@@ -61,6 +59,53 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </div>
+
+        <div id="hamburger-wrapper">
+            <div id="hamburger-menu">
+                <ul type="none">
+                    <li>
+                        <a class="hamburger-item, link" href="home.html">• Home</a>
+                    </li>
+                    <li>
+                        <a class="hamburger-item" href="#">About</a>
+                        <ul type="none">
+                            <li>
+                                <a class="hamburger-item, link" href="mission.html">Our Mission</a>
+                            </li>
+                            <li>
+                                <a class="hamburger-item, link" href="members.html">Our Members</a>
+                            </li>
+                            <li>
+                                <a class="hamburger-item, link" href="requirements.html">Our Requirements</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="hamburger-item, link" href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="hamburger-item" href="#">Resources</a>
+                        <ul type="none">
+                            <li>
+                                <a class="hamburger-item, link" href="calendar.html">Calendar</a>
+                            </li>
+                            <li>
+                                <a class="hamburger-item, link" href="documents.html">Documents</a>
+                            </li>
+                            <li>
+                                <a class="hamburger-item, link" href="hours.html">Hours</a>
+                            </li>
+                            <li>
+                                <a class="hamburger-item, link" href="tutoring.html">Tutoring</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="hamburger-item, link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -126,24 +171,24 @@
                         </thead>
                         <tbody>
                             <tr id="first-activity">
-                                <td>August 15</td>
-                                <td>7:00am</td>
+                                <td class="upcoming-table-data">August 15</td>
+                                <td class="upcoming-table-data">7:00am</td>
                             </tr>
                             <tr>
-                                <td>September 21</td>
-                                <td>7:00am</td>
+                                <td class="upcoming-table-data">September 21</td>
+                                <td class="upcoming-table-data">7:00am</td>
                             </tr>
                             <tr>
-                                <td>October 3</td>
-                                <td>2:40pm</td>
+                                <td class="upcoming-table-data">October 3</td>
+                                <td class="upcoming-table-data">2:40pm</td>
                             </tr>
                             <tr>
-                                <td>October 25</td>
-                                <td>7:00am</td>
+                                <td class="upcoming-table-data">October 25</td>
+                                <td class="upcoming-table-data">7:00am</td>
                             </tr>
                             <tr>
-                                <td>November 2</td>
-                                <td>2:40pm</td>
+                                <td class="upcoming-table-data">November 2</td>
+                                <td class="upcoming-table-data">2:40pm</td>
                             </tr>
                         </tbody>
                     </table>
@@ -156,24 +201,24 @@
                         </thead>
                         <tbody>
                             <tr id="first-activity">
-                                <td>August 15</td>
-                                <td>Meet the Teacher Night</td>
+                                <td class="upcoming-table-data">August 15</td>
+                                <td class="upcoming-table-data">Meet the Teacher Night</td>
                             </tr>
                             <tr>
-                                <td>August 27-31</td>
-                                <td>School Supply Drive</td>
+                                <td class="upcoming-table-data">August 27-31</td>
+                                <td class="upcoming-table-data">School Supply Drive</td>
                             </tr>
                             <tr>
-                                <td>September 5-8</td>
-                                <td>Back to School Night</td>
+                                <td class="upcoming-table-data">September 5-8</td>
+                                <td class="upcoming-table-data">Back to School Night</td>
                             </tr>
                             <tr>
-                                <td>October 3</td>
-                                <td>Fall Bake Sale</td>
+                                <td class="upcoming-table-data">October 3</td>
+                                <td class="upcoming-table-data">Fall Bake Sale</td>
                             </tr>
                             <tr>
-                                <td>November 9</td>
-                                <td>Fall Blood Drive</td>
+                                <td class="upcoming-table-data">November 9</td>
+                                <td class="upcoming-table-data">Fall Blood Drive</td>
                             </tr>
                         </tbody>
                     </table>
