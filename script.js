@@ -26,6 +26,7 @@ $(document).ready(function(){
         }
     });
 
+    /* Fades the hamburger menu in and out */
     var hamburger_open = false;
     $("#hamburger").click(function(){
         if(hamburger_open == false){
@@ -69,11 +70,13 @@ $(document).ready(function(){
         return false;
     });
 
+    /* 
     $("button").hover(function(){
         $(this).stop(true, true).animate({borderBottomWidth: "4px"}, duration / 2);
     }, function(){
         $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
     });
+    */
 
 
     // Bylaws Article animation

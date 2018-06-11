@@ -142,9 +142,10 @@ th {
 }
 
 .form-wrapper {
-    width: 800px; /* Has to be the same as .submission-forms width */
+    width: 80%; /* Has to be the same as .submission-forms width */
     margin-right: auto;
     margin-left: auto;
+    display: block;
 }
 
 .hamburger-item {
@@ -161,9 +162,12 @@ th {
 }
 
 .submission-forms {
-    width: 800px;
+    width: 100%;
     height: 900px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 100px;
+    display: block;
 }
 
 .upcoming-table {
