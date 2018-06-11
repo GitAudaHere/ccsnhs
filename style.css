@@ -344,6 +344,11 @@ th {
     margin-bottom: 75px;
 }
 
+#members-table-mobile {
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+
 #news {
     width: 55%;
     height: auto;
@@ -445,6 +450,14 @@ th {
         float: right;
     }
 
+    #members-table {
+        display: inline-block;
+    }
+
+    #members-table-mobile {
+        display: none;
+    }
+
     #site-header {
         width: 100%;
         height: auto;
@@ -501,6 +514,14 @@ th {
 
     #main-menu {
         float: right;
+    }
+
+    #members-table {
+        display: inline-block;
+    }
+
+    #members-table-mobile {
+        display: none;
     }
 
     #menu-icon {
@@ -630,6 +651,14 @@ th {
 
     #main-menu {
         display: none;
+    }
+
+    #members-table {
+        display: none;
+    }
+
+    #members-table-mobile {
+        display: inline-block;
     }
 
     #menu-icon {

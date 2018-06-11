@@ -27,15 +27,11 @@ necessary.
 
 ---| Mobile Development |---
 
--> Create a mobile members table with 2 columns
-
 -> Resize events.html text
 
 -> Fix calendar iframe
 
 -> Fix tutoring table
-
--> 
 
 
 ******| Problems |******
