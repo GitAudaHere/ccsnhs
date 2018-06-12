@@ -80,16 +80,13 @@ $(document).ready(function(){
 
 
     // Bylaws Article animation
-    var articleOpen = false;
-    $(".bylaws-article-wrapper").click(function(){
-        if (articleOpen == false)
+    $(".article-dropdown").click(function(){
+        if ($(this).siblings(".bylaws-article").css("display") == "none")
         {
-            $(this).find(".bylaws-article").css({display: "inline-block"});
-            articleOpen = true;
+            $(this).siblings(".bylaws-article").css({display: "inline-block"});
         }
         else {
-            $(this).find(".bylaws-article").css({display: "none"});
-            articleOpen = false;
+            $(this).siblings(".bylaws-article").css({display: "none"});
         }
     });
 });
