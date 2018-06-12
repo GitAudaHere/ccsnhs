@@ -27,11 +27,11 @@ necessary.
 
 ---| Mobile Development |---
 
--> Resize events.html text
-
 -> Fix calendar iframe
 
 -> Fix tutoring table
+
+-> Fix events-panel-right when screen width less than 1220px
 
 
 ******| Problems |******

@@ -432,6 +432,15 @@ th {
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 1040px) {
 
+    .events-content {
+        width: 70%;
+    }
+
+    .events-text {
+        text-align: center;
+        width: 80%;
+    }
+
     #hamburger {
         display: none;
     }
@@ -466,6 +475,15 @@ th {
 }
 
 @media only screen and (max-width: 1220px) {
+    
+    .events-content {
+        width: 70%;
+    }
+
+    .events-text {
+        text-align: center;
+        width: 80%;
+    }
 
     .upcoming-table-data {
         font-size: 14px;
@@ -569,6 +587,16 @@ th {
 
 @media only screen and (max-width: 640px) {
 
+    .events-content {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .events-text {
+        text-align: center;
+        width: 100%;
+    }
+
     .upcoming-table-data {
         font-size: 12px;
     }
@@ -596,7 +624,7 @@ th {
     }
 
     #events-panel-left {
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: block;
         float: none;
@@ -607,6 +635,7 @@ th {
         padding: none;
         border: none;
         margin: auto;
+        margin-bottom: 60px;
         display: block;
         float: none;
     }
