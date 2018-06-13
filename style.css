@@ -516,8 +516,10 @@ th {
     }
 
     #events-panel-right {
-        width: 90%;
-        margin: auto;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
         display: block;
         float: none;
     }
@@ -528,7 +530,9 @@ th {
 
     #events-title {
         text-align: center;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
     }
 
     #first-activity > td {
