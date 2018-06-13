@@ -518,6 +518,15 @@ th {
         float: none;
     }
 
+    #events-table {
+        margin: auto;
+    }
+
+    #events-title {
+        text-align: center;
+        margin: auto;
+    }
+
     #first-activity > td {
         font-size: 16px;
     }
