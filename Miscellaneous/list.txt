@@ -13,9 +13,6 @@ necessary.
     any photos. On top of this, there don't seem to be any photos of NHS events
     anywhere. Maybe we should have historian take photos of events for the website?
 
--> Add icons (Where?)
--> UPDATE: I still don't get what this means.
-
 -> Add tutoring calendar to tutoring page.
 
 -> Add news to society news div.
@@ -24,10 +21,10 @@ necessary.
 
 -> Add images to contacts.html
 
+-> Switch out hours iframes with X2VOL link
+
 
 ---| Mobile Development |---
-
--> Fix tutoring table
 
 -> Fix events-panel-right when screen width less than 1220px
 
