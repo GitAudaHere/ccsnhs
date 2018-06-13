@@ -203,6 +203,19 @@ th {
     margin-left: auto;
 }
 
+#all-meetings {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#all-meetings-table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
 #back-to-top-button {
     position: fixed;
     right: 1%;
