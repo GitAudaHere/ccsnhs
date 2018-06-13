@@ -100,7 +100,7 @@ th {
 }
 
 .dropdown-content {
-    min-width: 127px;
+    min-width: 126px;
     position: absolute;
     margin-top: 42px;
     background-color: #F1F1F1;
@@ -109,6 +109,7 @@ th {
 }
 
 .dropdown-content > a {
+    min-width: 126px;
     padding: 12px 16px;
     color: black;
     text-decoration: none;
@@ -117,6 +118,7 @@ th {
 }
 
 .dropdown-content > a:hover {
+    min-width: 126px;
     background-color: #273B59;
     color: #42C5F4;
 }
