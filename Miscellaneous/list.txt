@@ -17,16 +17,13 @@ necessary.
 
 -> Add news to society news div.
 
--> Add real meeting times to the upcoming meetings table.
-
 -> Add images to contacts.html
 
 -> Switch out hours iframes with X2VOL link
 
+-> Make article dropdown buttons look more like buttons
 
----| Mobile Development |---
-
--> Fix events-panel-right when screen width less than 1220px
+-> Add "Expand All" button to bylaws
 
 
 ******| Problems |******
