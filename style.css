@@ -487,6 +487,10 @@ th {
         height: auto;
         padding-bottom: 15%;
     }
+
+    #tutoring-table {
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 1220px) {
@@ -527,10 +531,23 @@ th {
     }
 
     #events-panel-right {
-        width: 90%;
-        margin: auto;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
         display: block;
         float: none;
+    }
+
+    #events-table {
+        margin: auto;
+    }
+
+    #events-title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
     }
 
     #first-activity > td {
@@ -572,6 +589,10 @@ th {
 
     #news-header {
         font-size: 18px;
+    }
+
+    #tutoring-table {
+        margin: auto;
     }
 
     #upcoming-wrapper {
@@ -711,6 +732,16 @@ th {
 
     #requirements > article {
         width: 90%;
+    }
+
+    #tutoring-table {
+        margin-left: -40px;
+    }
+
+    #tutoring-text {
+        width: 140%;
+        margin-top: 30px;
+        margin-left: -40px;
     }
 
     #upcoming-meetings {
