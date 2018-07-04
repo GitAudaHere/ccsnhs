@@ -238,12 +238,8 @@ th {
     z-index: 99;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #152136DD;
-    color: #FFFFFF;
-}
-
-#back-to-top-btn:hover {
     background-color: #152136FF;
+    color: #FFFFFF;
 }
 
 #btt-wrapper {
@@ -473,8 +469,6 @@ th {
 
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 900px) {
-
-    
 
     #btt-wrapper {
         display: inline;
