@@ -75,6 +75,19 @@ th {
     font-size: 20px;
 }
 
+.article-dropdown-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #555555;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
 .bylaws-article {
     height: 100px;
     display: none;

@@ -21,8 +21,6 @@ necessary.
 
 -> Switch out hours iframes with X2VOL link
 
--> Make article dropdown buttons look more like buttons
-
 -> Add "Expand All" button to bylaws
 
 
