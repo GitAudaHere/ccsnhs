@@ -56,14 +56,14 @@ $(document).ready(function(){
 
     function scroll() {
         if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            $("#top-button").fadeIn(duration * 2);
+            $("#top-button, #back-to-top-btn").fadeIn(duration * 2);
         } else {
-            $("#top-button").fadeOut(duration / 1.5);
+            $("#top-button, #back-to-top-btn").fadeOut(duration / 1.5);
         }
     }
 
     /* Back-to-top button scrolling */
-    $("#top-button").click(function(){
+    $("#top-button, #back-to-top-btn").click(function(){
         $("body,html").animate({
             scrollTop: 0
         }, 800);
