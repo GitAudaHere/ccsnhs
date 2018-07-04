@@ -51,33 +51,37 @@ $(document).ready(function(){
         }
     });
 
-    /* Back-to-top button fading */
+    /* Back-to-top-btn fading on scroll-down*/
     window.onscroll = function() {scroll()};
 
     function scroll() {
         if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            $("#top-button").fadeIn(duration * 2);
+            $("#back-to-top-btn").fadeIn(duration * 2);
         } else {
-            $("#top-button").fadeOut(duration / 1.5);
+            $("#back-to-top-btn").fadeOut(duration / 1.5);
         }
     }
 
+    // Sets the opacity on load
+    $("#back-to-top-btn").css({opacity: "0.90"});
+
+    // Sets the btn's display to none so that it doesn't display on load
+    $("#back-to-top-btn").css({display: "none"});
+    
+    /* Back-to-top-btn fading in on hover */
+    $("#back-to-top-btn").hover(function(){
+        $("#back-to-top-btn").animate({opacity: 1}, duration)
+    }, function(){
+        $("#back-to-top-btn").animate({opacity: 0.90}, duration)
+    });
+
     /* Back-to-top button scrolling */
-    $("#top-button").click(function(){
+    $("#back-to-top-btn").click(function(){
         $("body,html").animate({
             scrollTop: 0
         }, 800);
         return false;
     });
-
-    /* 
-    $("button").hover(function(){
-        $(this).stop(true, true).animate({borderBottomWidth: "4px"}, duration / 2);
-    }, function(){
-        $(this).stop(true, true).animate({borderBottomWidth: "0px"}, duration / 2);
-    });
-    */
-
 
     // Bylaws Article animation
     $(".article-dropdown").click(function(){

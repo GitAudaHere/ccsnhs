@@ -228,11 +228,21 @@ th {
     margin-bottom: 10%;
 }
 
-#back-to-top-button {
+/* Format the attributes */
+#back-to-top-btn {
+    font-size: 38px;
     position: fixed;
     right: 1%;
     bottom: 120px;
     z-index: 99;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #152136FF;
+    color: #FFFFFF;
+}
+
+#btt-wrapper {
+    display: none;
 }
 
 #banner {
@@ -477,6 +487,13 @@ th {
 }
 
 /* ---------[ Mobile Development ]--------- */
+@media only screen and (min-width: 900px) {
+
+    #btt-wrapper {
+        display: inline;
+    }
+}
+
 @media only screen and (min-width: 1040px) {
 
     .events-content {
@@ -675,10 +692,6 @@ th {
 
     #about-wrapper {
         width: 90%;
-    }
-
-    #back-to-top-button {
-        display: none;
     }
 
     #bylaws {
