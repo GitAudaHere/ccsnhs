@@ -89,4 +89,23 @@ $(document).ready(function(){
             $(this).siblings(".bylaws-article").css({display: "none"});
         }
     });
+
+    // Expand All Button Handler
+    var expanded = false;
+    $(".bylaws-expand-all-btn").click(function(){
+        if(expanded)
+        {
+            $(".bylaws-article").each(function(){
+                $(this).css({display: "none"});
+            });
+            expanded = false;
+        }
+        else
+        {
+            $(".bylaws-article").each(function(){
+                $(this).css({display: "inline-block"});
+            });
+            expanded = true;
+        }
+    });
 });
