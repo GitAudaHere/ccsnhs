@@ -87,28 +87,28 @@ $(document).ready(function(){
     $(".article-dropdown").click(function(){
         if ($(this).siblings(".bylaws-article").css("display") == "none")
         {
-            $(this).siblings(".bylaws-article").css({display: "inline-block"});
+            $(this).siblings(".bylaws-article").slideDown(duration / 2);
         }
-        else {
-            $(this).siblings(".bylaws-article").css({display: "none"});
+        else
+        {
+            $(this).siblings(".bylaws-article").slideUp(duration / 2);
         }
     });
 
     // Expand All Button Handler
+    
     var expanded = false;
-    $(".bylaws-expand-all-btn").click(function(){
-        if(expanded)
+    $("#bylaws-expand-all-btn").click(function(){
+        if (expanded)
         {
-            $(".bylaws-article").each(function(){
-                $(this).css({display: "none"});
-            });
+            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration / 2);
+            $("#bylaws").slideUp(duration);
             expanded = false;
         }
         else
         {
-            $(".bylaws-article").each(function(){
-                $(this).css({display: "inline-block"});
-            });
+            $("#bylaws").slideDown(duration);
+            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration / 2);
             expanded = true;
         }
     });
