@@ -51,7 +51,7 @@ $(document).ready(function(){
         }
     });
 
-    /* Back-to-top-btn fading on scroll-down*/
+    /* Back-to-top-btn fading on scroll-down */
     window.onscroll = function() {scroll()};
 
     function scroll() {
@@ -96,19 +96,18 @@ $(document).ready(function(){
     });
 
     // Expand All Button Handler
-    
     var expanded = false;
     $("#bylaws-expand-all-btn").click(function(){
         if (expanded)
         {
-            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration / 2);
-            $("#bylaws").slideUp(duration);
+            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration * 2);
+            $("#bylaws").slideUp(duration * 2);
             expanded = false;
         }
         else
         {
-            $("#bylaws").slideDown(duration);
-            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration / 2);
+            $("#bylaws").slideDown(duration * 2);
+            $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
             expanded = true;
         }
     });
