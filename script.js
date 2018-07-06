@@ -62,10 +62,10 @@ $(document).ready(function(){
         }
     }
 
-    // Sets the opacity on load
+    /* Sets the opacity on load */
     $("#back-to-top-btn").css({opacity: "0.90"});
 
-    // Sets the btn's display to none so that it doesn't display on load
+    /* Sets the btn's display to none so that it doesn't display on load */
     $("#back-to-top-btn").css({display: "none"});
     
     /* Back-to-top-btn fading in on hover */
