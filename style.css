@@ -85,6 +85,7 @@ th {
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .bylaws-article {
@@ -283,6 +284,7 @@ th {
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
+    cursor: pointer;
 }
 
 #bylaws-expand-all-btn {
@@ -298,6 +300,7 @@ th {
     text-transform: uppercase;
     font-size: 14px;
     float: right;
+    cursor: pointer;
 }
 
 #contact-intro {
