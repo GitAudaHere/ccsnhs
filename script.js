@@ -70,9 +70,9 @@ $(document).ready(function(){
     // Set display to block if using this.
     function scroll2() {
         if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            $("#back-to-top-btn").stop(true, false).animate({marginRight: "3vw"}, duration);
+            $("#back-to-top-btn").stop(true, false).animate({marginRight: "6vw"}, duration * 3);
         } else {
-            $("#back-to-top-btn").stop(true, false).animate({marginRight: "-3vw"}, duration);
+            $("#back-to-top-btn").stop(true, false).animate({marginRight: "-6vw"}, duration * 3);
         }
     }
 
