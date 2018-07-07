@@ -103,11 +103,13 @@ $(document).ready(function(){
         if (expanded)
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration * 2);
+            $("#bylaws-expand-all-btn").text("Expand All");
             expanded = false;
         }
         else
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
+            $("#bylaws-expand-all-btn").text("Contract All");
             expanded = true;
         }
     });
