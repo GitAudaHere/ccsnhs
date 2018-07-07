@@ -43,10 +43,12 @@ $(document).ready(function(){
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
             $("#bylaws").stop(true, false).slideDown(duration * 10);
+            $("#bylaws-expand-all-btn").stop(true, false).fadeIn(duration * 2);
             bylaws_open = true;
         }
         else{
             $("#bylaws").stop(true, false).slideUp(duration * 10);
+            $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 2);
             bylaws_open = false;
         }
     });
@@ -113,13 +115,13 @@ $(document).ready(function(){
         if (expanded)
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration * 2);
-            $("#bylaws").slideUp(duration * 2);
+            $("#bylaws-expand-all-btn").text("Expand All");
             expanded = false;
         }
         else
         {
-            $("#bylaws").slideDown(duration * 2);
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
+            $("#bylaws-expand-all-btn").text("Contract All");
             expanded = true;
         }
     });
