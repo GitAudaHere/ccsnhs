@@ -7,8 +7,8 @@
 }
 
 a {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #1586af;
+    text-decoration: underline;
 }
 
 body {
@@ -109,6 +109,8 @@ th {
     position: relative;
     padding: 10px;
     border-bottom: 0px solid #42C5F4;
+    color: #FFFFFF;
+    text-decoration: none;
     display: inline-block;
 }
 
@@ -156,13 +158,6 @@ th {
     width: 80%;
 }
 
-.form-wrapper {
-    width: 80%; /* Has to be the same as .submission-forms width */
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-
 .hamburger-item {
     color: #FFFFFF;
 }
@@ -179,15 +174,6 @@ th {
 
 .members-wrapper {
     margin-bottom: 150px;
-}
-
-.submission-forms {
-    width: 100%;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
-    display: block;
 }
 
 .upcoming-table {
@@ -238,7 +224,7 @@ th {
     z-index: 99;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #152136FF;
+    background-color: #273B59FF;
     color: #FFFFFF;
 }
 
@@ -456,9 +442,10 @@ th {
     margin-bottom: 25px;
 }
 
-#scrollable-news > li > a {
-    color: #42C5F4;
-    text-decoration: underline;
+#submission-directions {
+    width: 70vw;
+    margin: auto;
+    line-height: 32px;
 }
 
 #top-button {

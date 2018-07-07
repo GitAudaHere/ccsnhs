@@ -17,13 +17,13 @@ $(document).ready(function(){
         $(this).animate({color: "#42C5F4"}, duration);
         $(this).css({paddingBottom: "30px"});
         $(this).css({borderBottomWidth: "2px"});
-    }, function(){
+    }, function(){/*
         if($(".dropdown-content:hover").length == 0)
-        {
-            $(this).stop(true, false).animate({color: "#FFFFFF"}, duration);
-            $(this).stop(true, false).css({paddingBottom: "10px"});
-            $(this).stop(true, false).css({borderBottomWidth: "0px"});
-        }
+        {*/
+        $(this).stop(true, false).animate({color: "#FFFFFF"}, duration);
+        $(this).stop(true, false).css({paddingBottom: "10px"});
+        $(this).stop(true, false).css({borderBottomWidth: "0px"});
+        //}
     });
 
     /* Fades the hamburger menu in and out */
@@ -68,7 +68,7 @@ $(document).ready(function(){
     /* Sets the btn's display to none so that it doesn't display on load */
     $("#back-to-top-btn").css({display: "none"});
     
-    /* Back-to-top-btn fading in on hover */
+    /* Back-to-top-btn fading in and out on hover */
     $("#back-to-top-btn").hover(function(){
         $("#back-to-top-btn").animate({opacity: 1}, duration)
     }, function(){
