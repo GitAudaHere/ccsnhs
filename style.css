@@ -88,6 +88,10 @@ th {
     cursor: pointer;
 }
 
+.article-dropdown-btn:hover {
+    background-color: #CCCCCC;
+}
+
 .bylaws-article {
     height: 100px;
     display: none;
@@ -115,7 +119,7 @@ th {
 }
 
 .dropdown-content {
-    min-width: 126px;
+    min-width: 140px;
     position: absolute;
     margin-top: 42px;
     background-color: #F1F1F1;
@@ -273,6 +277,10 @@ th {
     cursor: pointer;
 }
 
+#bylaws-dropdown-btn:hover {
+    background-color: #1F2F47;
+}
+
 #bylaws-expand-all-btn {
     width: 20%;
     min-width: 150px;
@@ -286,7 +294,12 @@ th {
     text-transform: uppercase;
     font-size: 14px;
     float: right;
+    display: none;
     cursor: pointer;
+}
+
+#bylaws-expand-all-btn:hover {
+    background-color: #777777;
 }
 
 #contact-intro {

@@ -43,10 +43,12 @@ $(document).ready(function(){
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
             $("#bylaws").stop(true, false).slideDown(duration * 10);
+            $("#bylaws-expand-all-btn").stop(true, false).fadeIn(duration * 3);
             bylaws_open = true;
         }
         else{
             $("#bylaws").stop(true, false).slideUp(duration * 10);
+            $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 3);
             bylaws_open = false;
         }
     });
