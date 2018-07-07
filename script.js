@@ -52,8 +52,10 @@ $(document).ready(function(){
     });
 
     /* Back-to-top-btn fading on scroll-down */
-    window.onscroll = function() {scroll()};
+    window.onscroll = function() {scroll2()};
 
+    /* Fade in */
+    // Set display to none if using this.
     function scroll() {
         if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
             $("#back-to-top-btn").fadeIn(duration * 2);
@@ -62,17 +64,27 @@ $(document).ready(function(){
         }
     }
 
+    /* Slide in from right */
+    // Set display to block if using this.
+    function scroll2() {
+        if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            $("#back-to-top-btn").stop(true, false).animate({marginRight: "3vw"}, duration);
+        } else {
+            $("#back-to-top-btn").stop(true, false).animate({marginRight: "-3vw"}, duration);
+        }
+    }
+
     /* Sets the opacity on load */
-    $("#back-to-top-btn").css({opacity: "0.90"});
+    $("#back-to-top-btn").css({opacity: "0.9"});
 
     /* Sets the btn's display to none so that it doesn't display on load */
-    $("#back-to-top-btn").css({display: "none"});
+    $("#back-to-top-btn").css({display: "block"});
     
     /* Back-to-top-btn fading in and out on hover */
     $("#back-to-top-btn").hover(function(){
-        $("#back-to-top-btn").animate({opacity: 1}, duration)
+        $(this).animate({opacity: 1}, duration)
     }, function(){
-        $("#back-to-top-btn").animate({opacity: 0.90}, duration)
+        $(this).animate({opacity: 0.90}, duration)
     });
 
     /* Back-to-top button scrolling */

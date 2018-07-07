@@ -219,7 +219,7 @@ th {
 #back-to-top-btn {
     font-size: 38px;
     position: fixed;
-    right: 1%;
+    right: -2vw;
     bottom: 120px;
     z-index: 99;
     padding-left: 15px;
