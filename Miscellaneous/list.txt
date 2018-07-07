@@ -9,19 +9,16 @@ necessary.
 ******| To-Do List |******
 
 -> Add pictures to the pages. (Need to get pictures from Yearbook (Abby?))
--> UPDATE: Springer's looking to leave CCS. He's going to be no help in getting us
-    any photos. On top of this, there don't seem to be any photos of NHS events
-    anywhere. Maybe we should have historian take photos of events for the website?
+-> UPDATE: Can't do this until the school year starts.
 
 -> Add tutoring calendar to tutoring page.
+-> UPDATE: Can't do this until the school year starts.
 
 -> Add news to society news div.
+-> UPDATE: Can't do this until the school year starts.
 
 -> Add images to contacts.html
-
--> Switch out hours iframes with X2VOL link
-
--> Add "Expand All" button to bylaws
+-> UPDATE: Can't do this until the school year starts.
 
 
 ******| Problems |******
