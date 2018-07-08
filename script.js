@@ -42,11 +42,13 @@ $(document).ready(function(){
     var bylaws_open = false;
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
-            $("#bylaws").stop(true, false).slideDown(duration * 10);
+            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $("#bylaws").stop(true, false).slideDown(duration);
             $("#bylaws-expand-all-btn").stop(true, false).fadeIn(duration * 2);
             bylaws_open = true;
         }
         else{
+            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
             $("#bylaws").stop(true, false).slideUp(duration * 10);
             $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 2);
             bylaws_open = false;
@@ -101,11 +103,13 @@ $(document).ready(function(){
     $(".article-dropdown").click(function(){
         if ($(this).siblings(".bylaws-article").css("display") == "none")
         {
-            $(this).siblings(".bylaws-article").slideDown(duration / 2);
+            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $(this).siblings(".bylaws-article").slideDown(duration);
         }
         else
         {
-            $(this).siblings(".bylaws-article").slideUp(duration / 2);
+            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
+            $(this).siblings(".bylaws-article").slideUp(duration);
         }
     });
 
@@ -115,11 +119,13 @@ $(document).ready(function(){
         if (expanded)
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration * 2);
+            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".fa-angle-up").attr("class", "fas fa-angle-down");
             $("#bylaws-expand-all-btn").text("Expand All");
             expanded = false;
         }
         else
         {
+            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".fa-angle-down").attr("class", "fas fa-angle-up");
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
             $("#bylaws-expand-all-btn").text("Contract All");
             expanded = true;
