@@ -43,13 +43,13 @@ $(document).ready(function(){
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
             $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
-            $("#bylaws").stop(true, false).slideDown(duration);
+            $("#bylaws").stop(true, false).slideDown(duration * 2);
             $("#bylaws-expand-all-btn").stop(true, false).fadeIn(duration * 2);
             bylaws_open = true;
         }
         else{
             $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
-            $("#bylaws").stop(true, false).slideUp(duration * 10);
+            $("#bylaws").stop(true, false).slideUp(duration * 2);
             $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 2);
             bylaws_open = false;
         }
