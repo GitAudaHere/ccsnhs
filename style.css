@@ -481,7 +481,9 @@ th {
 }
 
 #tutoring {
-    width: 60%;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #tutoring-table {
@@ -489,7 +491,8 @@ th {
 }
 
 #tutoring-text {
-    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
 }
 
@@ -606,6 +609,10 @@ th {
         width: 80vw;
     }
 
+    #tutoring {
+        width: 80vw;
+    }
+
     #upcoming-wrapper {
         width: 100%;
         height: auto;
@@ -695,14 +702,12 @@ th {
         display: none;
     }
 
-    #tutoring-table {
-        margin-left: -40px;
+    #members-table-mobile {
+        display: inline-block;
     }
 
     #tutoring-text {
-        width: 140%;
         margin-top: 30px;
-        margin-left: -40px;
     }
 
     #upcoming-meetings {
