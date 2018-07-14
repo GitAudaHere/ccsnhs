@@ -127,7 +127,7 @@ $(document).ready(function(){
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".fa-angle-down").attr("class", "fas fa-angle-up");
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
-            $("#bylaws-expand-all-btn").text("Contract All");
+            $("#bylaws-expand-all-btn").text("Collapse All");
             expanded = true;
         }
     });
