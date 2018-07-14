@@ -152,6 +152,14 @@ th {
     display: inline-flex;
 }
 
+.email-row {
+    background-color: #CCCCCC;
+}
+
+.meeting-row {
+    background-color: #999999;
+}
+
 .events-content {
     width: 70%;
 }
@@ -173,6 +181,14 @@ th {
 .link {
     color: #42C5F4;
     text-decoration: underline;
+}
+
+.meetings-table-header {
+    color: #FFFFFF;
+}
+
+.meetings-table-header-row {
+    background-color: #273B59;
 }
 
 .members-wrapper {
@@ -207,8 +223,7 @@ th {
 }
 
 #all-meetings {
-    width: 40%;
-    margin-top: -100px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -409,6 +424,12 @@ th {
 
 #main-menu {
     float: right;
+}
+
+#meetings-text {
+    margin-top: -50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #members-table {
