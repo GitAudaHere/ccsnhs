@@ -152,6 +152,14 @@ th {
     display: inline-flex;
 }
 
+.email-row {
+    background-color: #CCCCCC;
+}
+
+.meeting-row {
+    background-color: #999999;
+}
+
 .events-content {
     width: 70%;
 }
@@ -176,7 +184,11 @@ th {
 }
 
 .meetings-table-header {
-    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.meetings-table-header-row {
+    background-color: #273B59;
 }
 
 .members-wrapper {
