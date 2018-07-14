@@ -612,10 +612,10 @@ th {
     }
 
     #news {
-        width: 80vw;
+        width: 100%;
         height: auto;
+        padding: 0px;
         border: none;
-        margin: auto;
     }
 
     #news-header {
@@ -643,7 +643,7 @@ th {
     }
 
     #upcoming-meetings {
-        width: 45%;
+        width: 48%;
         height: auto;
         padding-right: 3%;
         border-right: 1px solid #E5E8E9;
@@ -652,10 +652,9 @@ th {
     }
 
     #upcoming-events {
-        width: 45%;
+        width: 48%;
         height: auto;
         padding-left: 1.5%;
-        margin-top: 5px;
         display: inline-block;
     }
 }
@@ -733,8 +732,7 @@ th {
 
     #upcoming-meetings {
         width: 100%;
-        height: auto;
-        padding: none;
+        padding: 0px;
         border: none;
         margin: auto;
         float: none;
@@ -743,6 +741,7 @@ th {
     #upcoming-events {
         width: 100%;
         height: auto;
+        padding: 0px;
         margin: auto;
         float: none;
     }
