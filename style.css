@@ -239,7 +239,7 @@ th {
 #back-to-top-btn {
     font-size: 38px;
     position: fixed;
-    right: -5vw;
+    right: -9vw;
     bottom: 120px;
     z-index: 99;
     padding-left: 15px;
@@ -386,7 +386,6 @@ th {
 
 #front-page-wrapper {
     width: 90%;
-    margin-top: -100px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -434,7 +433,6 @@ th {
 }
 
 #members-table {
-    margin-top: -75px;
     margin-bottom: 75px;
 }
 
@@ -446,9 +444,10 @@ th {
 
 #news {
     width: 55%;
-    height: auto;
     padding-right: 4%;
     border-right: 1px solid #E5E8E9;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
 }
 
@@ -476,8 +475,11 @@ th {
 }
 
 #scrollable-news {
+    min-height: 250px;
     max-height: 600px;
     padding: 0px 0px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
     overflow-y: scroll;
 }
 
@@ -610,12 +612,10 @@ th {
     }
 
     #news {
-        width: 90%;
+        width: 100%;
         height: auto;
+        padding: 0px;
         border: none;
-        margin: auto;
-        display: block;
-        float: none;
     }
 
     #news-header {
@@ -643,7 +643,7 @@ th {
     }
 
     #upcoming-meetings {
-        width: 45%;
+        width: 48%;
         height: auto;
         padding-right: 3%;
         border-right: 1px solid #E5E8E9;
@@ -652,10 +652,9 @@ th {
     }
 
     #upcoming-events {
-        width: 45%;
+        width: 48%;
         height: auto;
         padding-left: 1.5%;
-        margin-top: 5px;
         display: inline-block;
     }
 }
@@ -733,8 +732,7 @@ th {
 
     #upcoming-meetings {
         width: 100%;
-        height: auto;
-        padding: none;
+        padding: 0px;
         border: none;
         margin: auto;
         float: none;
@@ -743,6 +741,7 @@ th {
     #upcoming-events {
         width: 100%;
         height: auto;
+        padding: 0px;
         margin: auto;
         float: none;
     }
