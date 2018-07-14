@@ -175,6 +175,10 @@ th {
     text-decoration: underline;
 }
 
+.meetings-table-header {
+    text-decoration: underline;
+}
+
 .members-wrapper {
     margin-bottom: 150px;
 }
@@ -207,8 +211,7 @@ th {
 }
 
 #all-meetings {
-    width: 40%;
-    margin-top: -100px;
+    width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -410,6 +413,12 @@ th {
 
 #main-menu {
     float: right;
+}
+
+#meetings-text {
+    margin-top: -50px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #members-table {
