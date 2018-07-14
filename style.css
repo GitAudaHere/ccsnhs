@@ -223,7 +223,7 @@ th {
 }
 
 #all-meetings {
-    width: 80%;
+    width: 80vw;
     margin-right: auto;
     margin-left: auto;
 }
@@ -324,8 +324,9 @@ th {
 
 #contact-wrapper {
     width: 60vw;
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
     /* margin-top: -100px; */
 }
 
@@ -427,9 +428,11 @@ th {
 }
 
 #meetings-text {
-    margin-top: -50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 80vw;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3vw;
 }
 
 #members-table {
@@ -446,8 +449,9 @@ th {
     width: 55%;
     padding-right: 4%;
     border-right: 1px solid #E5E8E9;
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
     float: left;
 }
 
@@ -478,8 +482,9 @@ th {
     min-height: 250px;
     max-height: 600px;
     padding: 0px 0px 0px 20px;
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
     overflow-y: scroll;
 }
 
@@ -491,8 +496,9 @@ th {
 
 #submission-directions {
     width: 70vw;
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
     /* margin-top: -100px; */
     line-height: 32px;
 }
@@ -505,8 +511,9 @@ th {
 
 #tutoring {
     width: 60vw;
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
 }
 
 #tutoring-table {
@@ -514,8 +521,9 @@ th {
 }
 
 #tutoring-text {
-    margin-left: auto;
+    padding: 0px;
     margin-right: auto;
+    margin-left: auto;
     margin-bottom: 50px;
 }
 
