@@ -224,7 +224,7 @@ th {
 #back-to-top-btn {
     font-size: 38px;
     position: fixed;
-    right: -5vw;
+    right: -9vw;
     bottom: 120px;
     z-index: 99;
     padding-left: 15px;
@@ -371,7 +371,6 @@ th {
 
 #front-page-wrapper {
     width: 90%;
-    margin-top: -100px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -413,7 +412,6 @@ th {
 }
 
 #members-table {
-    margin-top: -75px;
     margin-bottom: 75px;
 }
 
@@ -425,9 +423,10 @@ th {
 
 #news {
     width: 55%;
-    height: auto;
     padding-right: 4%;
     border-right: 1px solid #E5E8E9;
+    margin-left: auto;
+    margin-right: auto;
     float: left;
 }
 
@@ -455,8 +454,11 @@ th {
 }
 
 #scrollable-news {
+    min-height: 250px;
     max-height: 600px;
     padding: 0px 0px 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
     overflow-y: scroll;
 }
 
@@ -589,12 +591,10 @@ th {
     }
 
     #news {
-        width: 90%;
+        width: 80vw;
         height: auto;
         border: none;
         margin: auto;
-        display: block;
-        float: none;
     }
 
     #news-header {
