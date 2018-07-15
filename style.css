@@ -260,22 +260,18 @@ th {
     margin-left: auto;
 }
 
-/* Format the attributes */
-#back-to-top-btn {
-    font-size: 38px;
+#btt-btn {
+    font-size: 48px;
+    color: #FFFFFF;
+    background-color: #273B59FF;
+    border-radius: 15%;
+    z-index: 99;
     position: fixed;
     right: -9vw;
     bottom: 120px;
-    z-index: 99;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #273B59FF;
-    color: #FFFFFF;
     cursor: pointer;
-}
-
-#btt-wrapper {
     display: none;
+
 }
 
 #banner {
@@ -474,7 +470,6 @@ th {
     width: 55%;
     padding-right: 4%;
     border-right: 1px solid #E5E8E9;
-    padding: 0px;
     margin-right: auto;
     margin-left: auto;
     float: left;
@@ -569,7 +564,7 @@ th {
 /* ---------[ Mobile Development ]--------- */
 @media only screen and (min-width: 900px) {
 
-    #btt-wrapper {
+    #btt-btn {
         display: inline;
     }
 }
