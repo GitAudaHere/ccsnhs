@@ -42,13 +42,13 @@ $(document).ready(function(){
     var bylaws_open = false;
     $("#bylaws-dropdown-btn").click(function(){
         if (bylaws_open == false){
-            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $(this).find(".dropdown-icon").html("expand_less");
             $("#bylaws").stop(true, false).slideDown(duration * 2);
             $("#bylaws-expand-all-btn").stop(true, false).fadeIn(duration * 2);
             bylaws_open = true;
         }
         else{
-            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
+            $(this).find(".fa-angle-up").html("expand_more");
             $("#bylaws").stop(true, false).slideUp(duration * 2);
             $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 2);
             bylaws_open = false;
@@ -103,12 +103,12 @@ $(document).ready(function(){
     $(".article-dropdown").click(function(){
         if ($(this).siblings(".bylaws-article").css("display") == "none")
         {
-            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $(this).find(".dropdown-icon").html("expand_less");
             $(this).siblings(".bylaws-article").slideDown(duration);
         }
         else
         {
-            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
+            $(this).find(".dropdown-icon").html("expand_more");
             $(this).siblings(".bylaws-article").slideUp(duration);
         }
     });
@@ -119,15 +119,15 @@ $(document).ready(function(){
         if (expanded)
         {
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideUp(duration * 2);
-            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".fa-angle-up").attr("class", "fas fa-angle-down");
-            $("#bylaws-expand-all-btn").text("Expand All");
+            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".dropdown-icon").html("expand_more");
+            $(this).text("Expand All");
             expanded = false;
         }
         else
         {
-            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $("#bylaws").children(".bylaws-article-wrapper").children(".article-dropdown").find(".dropdown-icon").html("expand_less");
             $("#bylaws").children(".bylaws-article-wrapper").children(".bylaws-article").slideDown(duration * 2);
-            $("#bylaws-expand-all-btn").text("Collapse All");
+            $(this).text("Collapse All");
             expanded = true;
         }
     });
@@ -136,12 +136,12 @@ $(document).ready(function(){
     $(".meeting-dropdown-btn").click(function(){
         if ($(this).siblings(".meeting-info").css("display") == "none")
         {
-            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $(this).find(".dropdown-icon").html("expand_less");
             $(this).siblings(".meeting-info").slideDown(duration);
         }
         else
         {
-            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
+            $(this).find(".dropdown-icon").html("expand_more");
             $(this).siblings(".meeting-info").slideUp(duration);
         }
     });
