@@ -131,4 +131,18 @@ $(document).ready(function(){
             expanded = true;
         }
     });
+
+    /* Meeting dropdown */
+    $(".meeting-dropdown-btn").click(function(){
+        if ($(this).siblings(".meeting-info").css("display") == "none")
+        {
+            $(this).find(".fa-angle-down").attr("class", "fas fa-angle-up");
+            $(this).siblings(".meeting-info").slideDown(duration);
+        }
+        else
+        {
+            $(this).find(".fa-angle-up").attr("class", "fas fa-angle-down");
+            $(this).siblings(".meeting-info").slideUp(duration);
+        }
+    });
 });

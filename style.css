@@ -183,6 +183,27 @@ th {
     text-decoration: underline;
 }
 
+.meeting-dropdown-btn {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #273B59;
+    margin: auto;
+    color: #273B59;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.meeting-info {
+    display: none;
+}
+
+.meeting-wrapper {
+    width: 80vw;
+    margin: 5px auto 5px auto;
+}
+
 .meetings-table-header {
     color: #FFFFFF;
 }
@@ -226,6 +247,10 @@ th {
     width: 80vw;
     margin-right: auto;
     margin-left: auto;
+}
+
+#all-meetings-mobile {
+    display: none;
 }
 
 #all-meetings-table {
@@ -684,6 +709,14 @@ th {
 
     .upcoming-table-title {
         font-size: 15px;
+    }
+
+    #all-meetings {
+        display: none;
+    }
+
+    #all-meetings-mobile {
+        display: block;
     }
 
     #bylaws {
