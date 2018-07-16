@@ -792,11 +792,6 @@ th {
         margin-right: auto;
     }
 
-    #events-table > tbody > tr > td {
-        width: 50%;
-        font-size: 12px;
-    }
-
     #events-title {
         font-size: 20px;
     }
