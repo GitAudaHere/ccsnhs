@@ -443,6 +443,10 @@ th {
     width: 80%;
 }
 
+#faq-text {
+    margin-bottom: 50px;
+}
+
 #first-activity > td {
     color: #3D568D;
     font-size: 18px;
