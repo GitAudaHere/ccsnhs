@@ -241,7 +241,7 @@ th {
 }
 
 .members-wrapper {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .question-btn {
@@ -391,7 +391,10 @@ th {
 }
 
 #calendar-text {
-    margin-top: -50px;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    margin-left: 10%;
 }
 
 #contact-intro {
@@ -408,7 +411,10 @@ th {
 }
 
 #documents-text {
-    margin-top: -50px;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    margin-left: 10%;
 }
 
 #events-calendar {
