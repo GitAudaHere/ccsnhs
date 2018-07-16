@@ -70,6 +70,14 @@ th {
     margin-bottom: 100px;
 }
 
+.answer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    display: none;
+    line-height: normal;
+}
+
 .article-dropdown {
     font-size: 20px;
 }
@@ -106,6 +114,20 @@ th {
 
 .contact-person > p {
     margin-top: 0px;
+}
+
+.dashed-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dashed-list > li {
+    padding-left: 15px;
+}
+
+.dashed-list > li::before {
+    content: "– ";
+    padding-left: -15px;
 }
 
 .dropdown {
@@ -169,6 +191,12 @@ th {
     width: 80%;
 }
 
+.faq-dropdown-icon {
+    margin-right: 1vw;
+    float: right;
+    font-size: 24px;
+}
+
 .hamburger-item {
     color: #FFFFFF;
 }
@@ -216,6 +244,31 @@ th {
     margin-bottom: 150px;
 }
 
+.question-btn {
+    width: 100%;
+    min-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Nunito";
+    text-align: left;
+}
+
+.question-wrapper {
+    width: 60vw;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    box-shadow: 5px 5px 10px #313875;
+    background-color: #F1F1F1;
+}
+
 .upcoming-table {
     width: 100%;
     margin-bottom: 30px;
@@ -260,6 +313,14 @@ th {
     margin-left: auto;
 }
 
+#banner {
+    width: 100%;
+    height: auto;
+    /* margin: -8px; */
+    background-repeat: repeat-x;
+    background-image: url("Images/bannerBG.png");
+}
+
 #btt-btn {
     font-size: 48px;
     color: #FFFFFF;
@@ -273,12 +334,8 @@ th {
     display: none;
 }
 
-#banner {
-    width: 100%;
-    height: auto;
-    /* margin: -8px; */
-    background-repeat: repeat-x;
-    background-image: url("Images/bannerBG.png");
+#btt-wrapper {
+    display: inline;
 }
 
 #bylaws {
@@ -561,14 +618,11 @@ th {
 }
 
 /* ---------[ Mobile Development ]--------- */
-@media only screen and (min-width: 900px) {
-
-    #btt-btn {
-        display: inline;
-    }
-}
-
 @media only screen and (max-width: 1220px) {
+
+    .question-wrapper {
+        width: 80vw;
+    }
 
     .upcoming-table-data {
         font-size: 14px;
@@ -580,6 +634,10 @@ th {
 
     #about-wrapper {
         width: 80vw;
+    }
+
+    #btt-wrapper {
+        display: none;
     }
 
     #contact-wrapper {

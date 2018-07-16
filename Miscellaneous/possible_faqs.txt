@@ -43,7 +43,7 @@ to come as early or as often.
 *** Are the file names going to be replaced? ***
 Q. What kinds of activities can I do for volunteer hours?
 A. You can get hours for attending any NHS service event that occurs before or after school hours. You can find a list
-of events here. [events.html] All hours should be logged through X2VOL. [hours.html]. Baking does not count towards
+of events here. [events.html] All hours should be logged through x2VOL. [hours.html]. Baking does not count towards
 NHS hours. Attending induction doesn't either; it's a mandatory event.
 
 Q. What kinds of activities can I do for my ISP?

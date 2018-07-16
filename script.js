@@ -83,7 +83,6 @@ $(document).ready(function(){
 
     /* Sets the btn's display to none so that it doesn't display on load */
     $("#btt-btn").css({display: "block"});
-    
     /* Back-to-top-btn fading in and out on hover */
     $("#btt-btn").hover(function(){
         $(this).animate({opacity: 1}, duration)
@@ -143,6 +142,19 @@ $(document).ready(function(){
         {
             $(this).find(".dropdown-icon").html("expand_more");
             $(this).siblings(".meeting-info").slideUp(duration);
+        }
+    });
+
+    $(".question-btn").click(function(){
+        if ($(this).siblings(".answer").css("display") == "none")
+        {
+            $(this).siblings(".answer").stop(true, false).slideDown(duration / 2);
+            $(this).find(".dropdown-icon").html("expand_less");
+        }
+        else
+        {
+            $(this).siblings(".answer").stop(true, false).slideUp(duration / 2);
+            $(this).find(".dropdown-icon").html("expand_more");
         }
     });
 });
