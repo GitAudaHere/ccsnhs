@@ -13,16 +13,16 @@ $(document).ready(function(){
     });
 
     /* Menu item highlight animation */
-    $(".dropdown").hover(function(){
-        $(this).animate({color: "#42C5F4"}, duration);
-        $(this).css({paddingBottom: "30px"});
-        $(this).css({borderBottomWidth: "2px"});
+    $(".dropdown-menu").hover(function(){
+        $(this).children(".dropdown").animate({color: "#42C5F4"}, duration);
+        $(this).children(".dropdown").css({paddingBottom: "30px"});
+        $(this).children(".dropdown").css({borderBottomWidth: "2px"});
     }, function(){/*
         if($(".dropdown-content:hover").length == 0)
         {*/
-        $(this).stop(true, false).animate({color: "#FFFFFF"}, duration);
-        $(this).stop(true, false).css({paddingBottom: "10px"});
-        $(this).stop(true, false).css({borderBottomWidth: "0px"});
+        $(this).children(".dropdown").stop(true, false).animate({color: "#FFFFFF"}, duration);
+        $(this).children(".dropdown").stop(true, false).css({paddingBottom: "10px"});
+        $(this).children(".dropdown").stop(true, false).css({borderBottomWidth: "0px"});
         //}
     });
 
