@@ -276,6 +276,7 @@ th {
 
 .upcoming-table-data {
     padding-left: 4%;
+    font-size: 16px;
 }
 
 .upcoming-table-title {
@@ -431,18 +432,17 @@ th {
 #events-panel-left {
     width: 56vw;
     border-right: 1px solid #E5E8E9;
-    /* margin-top: -100px; */
     float: left;
 }
 
 #events-panel-right {
-    /* margin-top: -100px; */
-    width: 36vw;
+    width: 40vw;
+    padding-left: 3%;
     float: right;
 }
 
 #events-table {
-    margin-top: -10px;
+    width: 100%;
 }
 
 #events-title {
@@ -791,7 +791,7 @@ th {
         margin-bottom: 5vh;
     }
 
-    #events-panel-right > article > h1 {
+    #events-panel-right > h1 {
         margin-left: auto;
         margin-right: auto;
         font-size: 20px;
