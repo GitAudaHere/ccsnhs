@@ -244,6 +244,10 @@ th {
     margin-bottom: 50px;
 }
 
+.no-caps-text {
+    text-transform: none;
+}
+
 .question-btn {
     width: 100%;
     min-height: 50px;
