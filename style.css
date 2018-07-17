@@ -258,6 +258,7 @@ th {
     margin-right: auto;
     margin-left: auto;
     display: inline-block;
+    background-color: #DCDCDC;
     font-size: 16px;
     font-weight: 500;
     font-family: "Nunito";
@@ -819,7 +820,7 @@ th {
     }
 
     #logo {
-        width: 300px;
+        width: 70vw;
         height: auto;
         margin-top: 5%;
     }
