@@ -450,10 +450,11 @@ th {
 }
 
 #faq-text {
+    width: 80vw;
     margin-top: 30px;
-    margin-right: 10%;
+    margin-right: auto;
     margin-bottom: 50px;
-    margin-left: 10%;
+    margin-left: auto;
 }
 
 #first-activity > td {
