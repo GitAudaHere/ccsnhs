@@ -71,9 +71,7 @@ th {
 }
 
 .answer {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    padding-left: 10px;
+    padding: 20px 10px 15px 10px;
     display: none;
     line-height: normal;
 }
@@ -271,7 +269,7 @@ th {
     margin-bottom: 15px;
     margin-left: auto;
     box-shadow: 5px 5px 10px #313875;
-    background-color: #F1F1F1;
+    background-color: #EDEDED;
 }
 
 .upcoming-table {
@@ -280,7 +278,7 @@ th {
 }
 
 .upcoming-table-data {
-    padding-left: 4%;
+    padding-left: 3%;
     font-size: 16px;
 }
 
@@ -587,6 +585,7 @@ th {
     padding-bottom: 10px;
     border-bottom: 1px solid #AAAAAA;
     margin-bottom: 25px;
+    font-size: 16px;
 }
 
 #submission-directions {
@@ -763,6 +762,13 @@ th {
     }
 }
 
+@media only screen and (max-width: 728px) {
+
+    #upcoming-events-title {
+        padding-bottom: 34px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
 
     .events-content {
@@ -833,6 +839,10 @@ th {
         display: inline-block;
     }
 
+    #scrollable-news > li {
+        font-size: 14px;
+    }
+
     #tutoring-text {
         margin-top: 30px;
     }
@@ -851,5 +861,9 @@ th {
         padding: 0px;
         margin: auto;
         float: none;
+    }
+
+    #upcoming-events-title {
+        padding-bottom: 10px;
     }
 }

@@ -48,7 +48,7 @@ $(document).ready(function(){
             bylaws_open = true;
         }
         else{
-            $(this).find(".fa-angle-up").html("expand_more");
+            $(this).find(".dropdown-icon").html("expand_more");
             $("#bylaws").stop(true, false).slideUp(duration * 2);
             $("#bylaws-expand-all-btn").stop(true, false).fadeOut(duration * 2);
             bylaws_open = false;
