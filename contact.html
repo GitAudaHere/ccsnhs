@@ -75,8 +75,8 @@
                                 <a href="contact.html" class="dropdown">• Contact</a>
                             </li>
                         </ul>
-                    <
-                </span>/div>
+                    </div>
+                </span>
             </div>
         </div>
 
@@ -141,6 +141,22 @@
         <span id="btt-wrapper">
             <i class="material-icons" id="btt-btn">expand_less</i>
         </span>
+
+        <div id="contact-form-wrapper">
+            <div id="contact-title">
+                <h1>Contact Us</h1>
+                <p>If you have any questions or concerns, please fill out the form below to contact us.</p>
+            </div>
+            <form id="contact-form" method="post" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-input" placeholder="Your Name" required>
+                <br>
+                <input name="email" type="email" class="form-input" placeholder="Your Email" required>
+                <br>
+                <textarea name="message" class="form-input" id="form-message" placeholder="Message" row="4" required></textarea>
+                <br>
+                <input type="submit" class="form-input submit" value="SEND MESSAGE">
+            </form>
+        </div>
 
         <div id="contact-wrapper">
             <article>
