@@ -548,6 +548,10 @@ th {
     display: none;
 }
 
+#menu-wrapper {
+    float: right;
+}
+
 #news {
     width: 55%;
     padding-right: 4%;
