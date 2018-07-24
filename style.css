@@ -485,6 +485,7 @@ th {
 
 #footer-text {
     color: #FFFFFF;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -549,7 +550,7 @@ th {
 }
 
 #menu-wrapper {
-    float: right;
+    /* float: right; */
 }
 
 #news {
@@ -612,6 +613,7 @@ th {
     margin-right: 5.4vw;
     margin-top: 16px;
     float: right;
+    display: none;
 }
 
 #submission-directions {
@@ -870,7 +872,7 @@ th {
     }
 
     #social-links-bottom-wrapper {
-        display: block;
+        display: none;
     }
 
     #social-links-top-wrapper {
