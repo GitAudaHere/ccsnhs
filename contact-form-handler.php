@@ -1,26 +1,22 @@
 <?php
-    if (issen($_POST['submit']))
+    if (isset($_POST['submit']))
     {
         $name = $_POST['name'];
-        $visitor_email = $_POST['email'];
+        $mailFrom = $_POST['email'];
         $message = $_POST['message'];
-
-        $email_from = "cheney.ni@ccs.us";
 
         $email_subject = "Hello";
 
         $email_body = "Name: $name.\n" .
-            "Email: $visitor_email.\n" .
+            "Email: $mailFrom.\n" .
             "Message: $message.\n";
         
-        $email_to = "cheney.ni@ccs.us";
+        $mailTo = "contactus@ccsnhs.org";
 
-        $headers = "From: $email_from .\r\n";
+        $headers = "From: $email_from .\n\n";
 
-        $headers .= "Reply-To: $visitor_email .\r\n";
+        mail($mailTo, $email_subject, $email_body, $headers);
 
-        mail($email_to, $email_subject, $email_body, $headers);
-
-        header("Location: contact.html");
+        header("Location: contact.php?mailsend");
     }
 ?>
