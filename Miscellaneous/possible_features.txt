@@ -1,0 +1,5 @@
+*** Possible Features to Implement ***
+
+-> Contact us form that emails response to us
+
+-> Search bar
