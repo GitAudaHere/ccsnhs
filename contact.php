@@ -72,7 +72,7 @@
                                 </div>
                             </li>
                             <li class="dropdown-menu">
-                                <a href="contact.html" class="dropdown">• Contact</a>
+                                <a href="contact.php" class="dropdown">• Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -132,7 +132,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="hamburger-item link" href="contact.html">• Contact</a>
+                        <a class="hamburger-item link" href="contact.php">• Contact</a>
                     </li>
                 </ul>
             </div>
@@ -142,19 +142,24 @@
             <i class="material-icons" id="btt-btn">expand_less</i>
         </span>
 
+        <?php include("contact-form-handler.php");?>
+
         <div id="contact-form-wrapper">
             <div id="contact-title">
                 <h1>Contact Us</h1>
                 <p>If you have any questions or concerns, please fill out the form below to contact us.</p>
             </div>
             <form id="contact-form" method="post" action="contact-form-handler.php">
-                <input name="name" type="text" class="form-input" placeholder="Your Name" required>
+                <input value="<?php echo $name;?>" name="name" type="text" class="form-input" placeholder="Your Name" tabindex="1" autofocus value="<?php echo $name ;?>" required>
+                <span class="error">* <?php echo $name_error;?></span>
                 <br>
-                <input name="email" type="email" class="form-input" placeholder="Your Email" required>
+                <input value="<?php echo $email;?>" name="email" type="email" class="form-input" placeholder="Your Email" tabindex="2" required>
+                <span class="error">* <?php echo $email_error;?></span>
                 <br>
-                <textarea name="message" class="form-input" id="form-message" placeholder="Message" row="4" required></textarea>
+                <textarea value="<?php echo $message;?>" name="message" class="form-input" id="form-message" placeholder="Message" row="4" tabindex="3" required></textarea>
                 <br>
                 <input type="submit" class="form-input submit" value="SEND MESSAGE">
+                <div class="success"><?php echo $success;?></div>
             </form>
         </div>
 
@@ -189,7 +194,7 @@
                     <h3>Abigail Dean</h3>
                     <p class="position-description">President</p>
                     <p>Email: 
-                            <span>a</span><span>b</span><span>i</span><span>g</span><span>a</span><span>i</span><span>l</span><span>.</span><span>d</span><span>e</span><span>a</span><span>n</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
+                        <span>a</span><span>b</span><span>i</span><span>g</span><span>a</span><span>i</span><span>l</span><span>.</span><span>d</span><span>e</span><span>a</span><span>n</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
                     </p>
                     <p>
                         The president oversees the other officers and members of the chapter,
@@ -211,7 +216,7 @@
                     <h3>Marshall Lentz</h3>
                     <p class="position-description">Secretary</p>
                     <p>Email: 
-                            <span>m</span><span>a</span><span>r</span><span>s</span><span>h</span><span>a</span><span>l</span><span>l</span><span>.</span><span>l</span><span>e</span><span>n</span><span>t</span><span>z</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
+                        <span>m</span><span>a</span><span>r</span><span>s</span><span>h</span><span>a</span><span>l</span><span>l</span><span>.</span><span>l</span><span>e</span><span>n</span><span>t</span><span>z</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
                     </p>
                     <p>
                         The secretary keeps detailed records of meetings and service hours,
@@ -222,7 +227,7 @@
                     <h3>Cheney Ni</h3>
                     <p class="position-description">Treasurer</p>
                     <p>Email: 
-                            <span>c</span><span>h</span><span>e</span><span>n</span><span>e</span><span>y</span><span>.</span><span>n</span><span>i</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
+                        <span>c</span><span>h</span><span>e</span><span>n</span><span>e</span><span>y</span><span>.</span><span>n</span><span>i</span><span>@</span><span>c</span><span>c</span><span>s</span><span>.</span><span>u</span><span>s</span>
                     </p>
                     <p>
                         The treasurer oversees all fundraising activities, keep detailed
@@ -267,6 +272,5 @@
             </div>
             <p id="footer-text">This website was last updated July 2018.</p>
         </div>
-
     </body>
 </html>
