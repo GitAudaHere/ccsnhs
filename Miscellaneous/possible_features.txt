@@ -1,5 +1,8 @@
 *** Possible Features to Implement ***
 
--> Contact us form that emails response to us
+-> Contact us form that emails responses to us
 
 -> Search bar
+
+-> Google classroom links
+
