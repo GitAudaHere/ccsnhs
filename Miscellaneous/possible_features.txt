@@ -2,7 +2,6 @@
 
 -> Contact us form that emails responses to us
 
--> Search bar
-
 -> Google classroom links
 
+-> 

@@ -20,6 +20,12 @@ necessary.
 -> Add images to contacts.html
 -> UPDATE: Can't do this until the school year starts.
 
+-> Add secondary navigation links in footer.
+
+-> Write a privacy policy.
+
+-> Create a blog page.
+
 
 ******| Problems |******
 
