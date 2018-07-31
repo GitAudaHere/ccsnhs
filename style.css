@@ -97,6 +97,11 @@ th {
     background-color: #CCCCCC;
 }
 
+.break-after::after {
+    content: "\A\A";
+    white-space: pre;
+}
+
 .bylaws-article {
     height: 100px;
     display: none;
@@ -338,7 +343,7 @@ th {
 #btt-btn {
     font-size: 48px;
     color: #FFFFFF;
-    background-color: #273B59FF;
+    background-color: #273B59;
     border-radius: 10%;
     z-index: 99;
     position: fixed;
