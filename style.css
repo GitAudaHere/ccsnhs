@@ -181,17 +181,18 @@ th {
     background-color: #CCCCCC;
 }
 
-.meeting-row {
-    background-color: #999999;
-}
-
 .events-content {
-    width: 70%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .events-text {
-    text-align: center;
     width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 16px;
 }
 
 .faq-dropdown-icon {
@@ -229,6 +230,11 @@ th {
 .meeting-info {
     display: none;
 }
+
+.meeting-row {
+    background-color: #999999;
+}
+
 
 .meeting-wrapper {
     width: 80vw;
@@ -449,22 +455,28 @@ th {
 
 #events-panel-left {
     width: 56vw;
-    border-right: 1px solid #E5E8E9;
+    padding-right: 5%;
+    padding-left: 5%;
     float: left;
 }
 
 #events-panel-right {
-    width: 40vw;
-    padding-left: 3%;
+    width: 35vw;
+    margin-right: 4%;
+    margin-left: auto;
     float: right;
 }
 
 #events-table {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #events-title {
-    width: 80%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #faq-text {
@@ -552,10 +564,6 @@ th {
     margin-top: 25px;
     margin-bottom: 75px;
     display: none;
-}
-
-#menu-wrapper {
-    /* float: right; */
 }
 
 #news {
