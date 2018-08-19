@@ -20,8 +20,9 @@
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         
-        <!-- JS script link -->
+        <!-- JS script links -->
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="event_dates.js"></script>
         
         <!-- Google JQuery UI CDN -->
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
@@ -37,6 +38,7 @@
     </head>
 
     <body>
+        <script type="text/javascript">updateMeetings(); updateEvents();</script>
         <div id="banner">
             <div id="site-header">
                 <a href="home.html"><img src="Images/ccsnhsLogo.png" alt="CCS NHS Logo" id="logo" /></a>
@@ -163,6 +165,8 @@
                 </ul>
             </div>
 
+            <div class="vertical-line" style="border-left: 1px solid #E5E8E9; height: 550px;"></div>
+
             <div id="upcoming-wrapper">
                 <div id="upcoming-meetings">
                     <table class="upcoming-table">
@@ -171,32 +175,33 @@
                                 <th colspan="3" class="upcoming-table-title">Upcoming Meetings / Emails</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td class="upcoming-table-data">Wednesday, August 8</td>
-                                <td class="upcoming-table-data">Email</td>
-                                <td class="upcoming-table-data">N/A</td>
-                            </tr>
+                        <tbody class="upcoming-meetings-body">
                             <tr id="first-activity">
-                                <td class="upcoming-table-data">Tuesday, August 28</td>
-                                <td class="upcoming-table-data">Meeting</td>
-                                <td class="upcoming-table-data">7:10am</td>
+                                <td class="upcoming-table-data event-date">Wednesday, August 8</td>
+                                <td class="upcoming-table-data event-contact-method">Email</td>
+                                <td class="upcoming-table-data event-time">N/A</td>
                             </tr>
                             <tr>
-                                <td class="upcoming-table-data">Friday, September 28</td>
-                                <td class="upcoming-table-data">Email</td>
-                                <td class="upcoming-table-data">N/A</td>
+                                <td class="upcoming-table-data date">Tuesday, August 28</td>
+                                <td class="upcoming-table-data event-contact-method">Meeting</td>
+                                <td class="upcoming-table-data event-time">7:10am</td>
                             </tr>
                             <tr>
-                                <td class="upcoming-table-data">Tuesday, November 6</td>
-                                <td class="upcoming-table-data">Meeting</td>
-                                <td class="upcoming-table-data">7:10am</td>
+                                <td class="upcoming-table-data date">Friday, September 28</td>
+                                <td class="upcoming-table-data event-contact-method">Email</td>
+                                <td class="upcoming-table-data event-time">N/A</td>
+                            </tr> 
+                            <tr>
+                                <td class="upcoming-table-data date">Tuesday, November 6</td>
+                                <td class="upcoming-table-data event-contact-method">Meeting</td>
+                                <td class="upcoming-table-data event-time">7:10am</td>
                             </tr>
                             <tr>
-                                <td class="upcoming-table-data">Tuesday, November 27</td>
-                                <td class="upcoming-table-data">Meeting</td>
-                                <td class="upcoming-table-data">7:10am</td>
+                                <td class="upcoming-table-data date">Tuesday, November 27</td>
+                                <td class="upcoming-table-data event-contact-method">Meeting</td>
+                                <td class="upcoming-table-data event-time">7:10am</td>
                             </tr>
+                            
                         </tbody>
                     </table>
                 </div>
@@ -208,12 +213,12 @@
                                 <th colspan="2" class="upcoming-table-title" id="upcoming-events-title">Upcoming Events</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
+                        <tbody class="upcoming-events-body">
+                            <tr id="first-activity">
                                 <td class="upcoming-table-data">August 15</td>
                                 <td class="upcoming-table-data">Meet the Teacher Night</td>
                             </tr>
-                            <tr id="first-activity">
+                            <tr>
                                 <td class="upcoming-table-data">August 27-31</td>
                                 <td class="upcoming-table-data">School Supply Drive</td>
                             </tr>

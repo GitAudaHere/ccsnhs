@@ -306,6 +306,10 @@ th {
     font-weight: 500;
 }
 
+.vertical-line {
+    display: inline-block;
+}
+
 /* ---------[ IDs ]--------- */
 
 #about-wrapper {
@@ -569,7 +573,7 @@ th {
 #news {
     width: 55%;
     padding-right: 4%;
-    border-right: 1px solid #E5E8E9;
+    /* border-right: 1px solid #E5E8E9; */
     margin-right: auto;
     margin-left: auto;
     float: left;
@@ -689,6 +693,10 @@ th {
 
     .upcoming-table-title {
         font-size: 18px;
+    }
+
+    .vertical-line {
+        display: none;
     }
 
     #about-wrapper {
