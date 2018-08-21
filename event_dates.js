@@ -37,8 +37,14 @@ class Event {
     }
 }
 
-function dateToString(startDate, endDate) {
-    return weekday[endDate.getDay()] + ", " + month[endDate.getMonth()] + " " + endDate.startDate + "-" + endDate.endDate;
+function dateToString(date) {
+    if (date.startDate == null) {
+        return weekday[date.endDate.getDay()] + ", " + month[date.endDate.getMonth()] + " " + date.endDate.getDate();
+    }
+    else {
+        return weekday[date.endDate.getDay()] + ", " + month[date.endDate.getMonth()] + " " + date.startDate.getDate() + "-" + date.endDate.getDate();
+    }
+    
 }
 
 var meetings = [
@@ -74,9 +80,10 @@ var events = [
 
 function nextActivity(activityList) {
     for (var i = 0; i < activityList.length; i++)
-        console.log(dateToString(activityList[i]));
+    {
         if (Date.parse(activityList[i].endDate) > Date.now())
             return i;
+    }
     return 0;
 }
 
@@ -92,16 +99,8 @@ function updateEvents() {
         for (var i = 0; i < event_rows.length; i++) {
             var current_row = event_rows[i];
             if (next_event_index + i < events.length) {
-                if(events[i].startDate != null)
-                {
-                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i].startDate, events[next_event_index + i].endDate);
-                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
-                }
-                else
-                {
-                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i].endDate);
-                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
-                }
+                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i]);
+                current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
             } else {
                 current_row.getElementsByTagName("td")[0].innerHTML = "";
                 current_row.getElementsByTagName("td")[1].innerHTML = "";
@@ -122,7 +121,7 @@ function updateMeetings() {
         for (var i = 0; i < meeting_rows.length; i++) {
             var current_row = meeting_rows[i];
             if (next_meeting_index + i < meetings.length) {
-                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(meetings[next_meeting_index + i].endDate);
+                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(meetings[next_meeting_index + i]);
                 current_row.getElementsByTagName("td")[1].innerHTML = meetings[next_meeting_index + i].contactFormat;
                 current_row.getElementsByTagName("td")[2].innerHTML = meetings[next_meeting_index + i].time;
             } else {
