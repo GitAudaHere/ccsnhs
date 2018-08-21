@@ -22,22 +22,23 @@ month[10] = "November";
 month[11] = "December";
 
 class Meeting {
-    constructor(date, contactFormat, time) {
-        this.date = date;
+    constructor(endDate, contactFormat, time) {
+        this.endDate = endDate;
         this.contactFormat = contactFormat;
         this.time = time;
     }
 }
 
 class Event {
-    constructor(date, description) {
-        this.date = date;
+    constructor(startDate, endDate, description) {
+        this.startDate = startDate;
+        this.endDate = endDate;
         this.description = description;
     }
 }
 
-function dateToString(date) {
-    return weekday[date.getDay()] + ", " + month[date.getMonth()] + " " + date.getDate();
+function dateToString(startDate, endDate) {
+    return weekday[endDate.getDay()] + ", " + month[endDate.getMonth()] + " " + endDate.startDate + "-" + endDate.endDate;
 }
 
 var meetings = [
@@ -54,26 +55,27 @@ var meetings = [
 ];
 
 var events = [
-    new Event(new Date(2018, 7, 15), "Meet the Teacher Night"),
-    new Event(new Date(2018, 7, 31), "School Supply Drive"),
-    new Event(new Date(2018, 8, 8), "Back to School Night"),
-    new Event(new Date(2018, 9, 3), "Fall Back Sale"),
-    new Event(new Date(2018, 10, 9), "Fall Blood Drive"),
-    new Event(new Date(2018, 10, 14), "NHS Induction"),
-    new Event(new Date(2018, 11, 1), "Decorating Nursing Homes"),
-    new Event(new Date(2019, 0, 12), "Taking Down Decorations"),
-    new Event(new Date(2019, 1, 1), "Heifer Fund (Panera)"),
-    new Event(new Date(2019, 2, 1), "Read Across America"),
-    new Event(new Date(2019, 2, 20), "Spring Blood Drive"), /* Not the final decided date */
-    new Event(new Date(2019, 3, 26), "Soles for Souls"),
-    new Event(new Date(2019, 4, 3), "Penny Wars"),
-    new Event(new Date(2019, 4, 11), "Prom (Fashion Show) at Nursing Home"),
-    new Event(new Date(2019, 4, 21), "Spring Raffle")
+    new Event(new Date(2018, 7, 15), new Date(2018, 7, 15), "Meet the Teacher Night"),
+    new Event(new Date(2018, 7, 27), new Date(2018, 7, 31), "School Supply Drive"),
+    new Event(new Date(2018, 8, 8), new Date(2018, 8, 8), "Back to School Night"),
+    new Event(new Date(2018, 9, 3), new Date(2018, 9, 3), "Fall Back Sale"),
+    new Event(new Date(2018, 10, 9), new Date(2018, 10, 9), "Fall Blood Drive"),
+    new Event(new Date(2018, 10, 14), new Date(2018, 10, 14), "NHS Induction"),
+    new Event(new Date(2018, 11, 1), new Date(2018, 11, 1), "Decorating Nursing Homes"),
+    new Event(new Date(2019, 0, 12), new Date(2019, 0, 12), "Taking Down Decorations"),
+    new Event(new Date(2019, 1, 1), new Date(2019, 1, 1), "Heifer Fund (Panera)"),
+    new Event(new Date(2019, 2, 1), new Date(2019, 2, 1), "Read Across America"),
+    new Event(new Date(2019, 2, 20), new Date(2019, 2, 20), "Spring Blood Drive"), /* Not the final decided endDate */
+    new Event(new Date(2019, 3, 26), new Date(2019, 3, 26), "Soles for Souls"),
+    new Event(new Date(2019, 4, 3), new Date(2019, 4, 3), "Penny Wars"),
+    new Event(new Date(2019, 4, 11), new Date(2019, 4, 11), "Prom (Fashion Show) at Nursing Home"),
+    new Event(new Date(2019, 4, 21), new Date(2019, 4, 21), "Spring Raffle")
 ];
 
 function nextActivity(activityList) {
     for (var i = 0; i < activityList.length; i++)
-        if (Date.parse(activityList[i].date) > Date.now())
+        console.log(dateToString(activityList[i]));
+        if (Date.parse(activityList[i].endDate) > Date.now())
             return i;
     return 0;
 }
@@ -90,8 +92,16 @@ function updateEvents() {
         for (var i = 0; i < event_rows.length; i++) {
             var current_row = event_rows[i];
             if (next_event_index + i < events.length) {
-                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i].date);
-                current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
+                if(events[i].startDate != null)
+                {
+                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i].startDate, events[next_event_index + i].endDate);
+                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
+                }
+                else
+                {
+                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i].endDate);
+                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
+                }
             } else {
                 current_row.getElementsByTagName("td")[0].innerHTML = "";
                 current_row.getElementsByTagName("td")[1].innerHTML = "";
@@ -112,7 +122,7 @@ function updateMeetings() {
         for (var i = 0; i < meeting_rows.length; i++) {
             var current_row = meeting_rows[i];
             if (next_meeting_index + i < meetings.length) {
-                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(meetings[next_meeting_index + i].date);
+                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(meetings[next_meeting_index + i].endDate);
                 current_row.getElementsByTagName("td")[1].innerHTML = meetings[next_meeting_index + i].contactFormat;
                 current_row.getElementsByTagName("td")[2].innerHTML = meetings[next_meeting_index + i].time;
             } else {
