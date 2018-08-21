@@ -37,8 +37,14 @@ class Event {
     }
 }
 
-function dateToString(event) {
-    return weekday[event.endDate.getDay()] + ", " + month[event.endDate.getMonth()] + " " + event.startDate.getDate() + "-" + event.endDate.getDate();
+function dateToString(date) {
+    if (date.startDate == null || Date.parse(date.startDate) == Date.parse(date.endDate)) {
+        return weekday[date.endDate.getDay()] + ", " + month[date.endDate.getMonth()] + " " + date.endDate.getDate();
+    }
+    else
+    {
+        return weekday[date.endDate.getDay()] + ", " + month[date.endDate.getMonth()] + " " + date.startDate.getDate() + "-" + date.endDate.getDate();
+    }
 }
 
 var meetings = [
@@ -73,10 +79,10 @@ var events = [
 ];
 
 function nextActivity(activityList) {
-    for (var i = 0; i < activityList.length; i++)
-        // console.log(dateToString(activityList[i]));
+    for (var i = 0; i < activityList.length; i++) {
         if (Date.parse(activityList[i].endDate) > Date.now())
             return i;
+    }
     return 0;
 }
 
@@ -92,17 +98,8 @@ function updateEvents() {
         for (var i = 0; i < event_rows.length; i++) {
             var current_row = event_rows[i];
             if (next_event_index + i < events.length) {
-                if(events[i].startDate != null)
-                {
-                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i]);
-                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
-                }
-                else
-                {
-                    console.log(dateToString(events[next_event_index + i]));
-                    current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i]);
-                    current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
-                }
+                current_row.getElementsByTagName("td")[0].innerHTML = dateToString(events[next_event_index + i]);
+                current_row.getElementsByTagName("td")[1].innerHTML = events[next_event_index + i].description;
             } else {
                 current_row.getElementsByTagName("td")[0].innerHTML = "";
                 current_row.getElementsByTagName("td")[1].innerHTML = "";
