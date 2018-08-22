@@ -250,7 +250,10 @@ th {
 }
 
 .members-wrapper {
+    width: 527px;
+    margin-right: auto;
     margin-bottom: 50px;
+    margin-left: auto;
 }
 
 .no-caps-text {
