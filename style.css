@@ -616,6 +616,10 @@ th {
     font-weight: 500;
 }
 
+#officers {
+    margin-left: 25%;
+}
+
 #requirements {
     width: 60vw;
     margin: auto;
