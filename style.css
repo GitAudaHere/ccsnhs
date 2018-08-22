@@ -429,6 +429,28 @@ th {
     margin-left: 10%;
 }
 
+#committee-a {
+    max-width: 400px;
+    margin-left: 20%;
+    float: left;
+}
+
+#committee-b {
+    max-width: 400px;
+    margin-right: 20%;
+    float: right;
+}
+
+#committee-row {
+    margin-top: 70px;
+}
+
+#committee-text {
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
 #contact-intro {
     width: 100%;
     margin-bottom: 50px;
