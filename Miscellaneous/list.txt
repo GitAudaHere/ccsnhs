@@ -14,9 +14,6 @@ necessary.
 -> Add tutoring calendar to tutoring page.
 -> UPDATE: Can't do this until the school year starts.
 
--> Add news to society news div.
--> UPDATE: Can't do this until the school year starts.
-
 -> Add images to contacts.html
 -> UPDATE: Can't do this until the school year starts.
 
