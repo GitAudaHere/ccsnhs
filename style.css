@@ -235,7 +235,6 @@ th {
     background-color: #999999;
 }
 
-
 .meeting-wrapper {
     width: 80vw;
     margin: 5px auto 5px auto;
@@ -250,7 +249,7 @@ th {
 }
 
 .members-wrapper {
-    width: 527px;
+    width: 60vw;
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto;
@@ -564,6 +563,7 @@ th {
 }
 
 #members-table {
+    width: 100%;
     margin-bottom: 75px;
 }
 
