@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Welcome to the Collegium Charter School's National Honor Society Chapter Website. Here you can find information about this NHS chapter." />
         <meta name="theme-color" content="#273B59" />
-
         <!-- CSS link -->
         <link rel="stylesheet" type="text/css" href="style.css">
         
@@ -21,18 +21,26 @@
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         
-        <!-- JS script link -->
+        <!-- JS script links -->
         <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="event_dates.js"></script>
+        
+        <!-- Google JQuery UI CDN -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         
         <!-- Google Icons CDN -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <title>CCS NHS - Tutoring</title>
+        <!-- Google Icons CDN -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <title>CCS NHS - Committees</title>
     </head>
+
     <body>
         <div id="banner">
             <div id="site-header">
-                <!--Replace the link with the url when set up-->
                 <a href="home.html"><img src="Images/ccsnhsLogo.png" alt="CCS NHS Logo" id="logo" /></a>
                 <span id="menu-wrapper">
                     <div id="social-links-top-wrapper">
@@ -49,35 +57,35 @@
                             <li class="dropdown-menu">
                                 <a href="#" class="dropdown">About</a>
                                 <div class="dropdown-content">
-                                    <a href="members.html">Our Mission</a>
+                                    <a href="mission.html">Our Mission</a>
                                     <a href="members.html">Our Members</a>
                                     <a href="requirements.html">Our Requirements</a>
                                     <a href="faq.html">FAQs</a>
                                 </div>
                             </li>
                             <li class="dropdown-menu">
-                                <a href="#" class="dropdown">Events</a>
+                                <a href="#" class="dropdown">• Events</a>
                                 <div class="dropdown-content">
                                     <a href="events.html">Community Events</a>
                                     <a href="meetings.html">Meetings</a>
-                                    <a href="committees.html">Committees</a>
+                                    <a href="committees.html">• Committees</a>
                                 </div>
                             </li>
                             <li class="dropdown-menu">
-                                <a href="#" class="dropdown">• Resources</a>
+                                <a href="#" class="dropdown">Resources</a>
                                 <div class="dropdown-content">
                                     <a href="calendar.html">Calendar</a>
                                     <a href="documents.html">Documents</a>
                                     <a href="hours.html">Hours</a>
-                                    <a href="tutoring.html">• Tutoring</a>
+                                    <a href="tutoring.html">Tutoring</a>
                                 </div>
                             </li>
                             <li class="dropdown-menu">
                                 <a href="contact.html" class="dropdown">Contact</a>
                             </li>
                         </ul>
-                    
-                </span></div>
+                    </div>
+                </span>
             </div>
         </div>
 
@@ -105,7 +113,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a class="hamburger-item" href="#">Events</a>
+                        <a class="hamburger-item" href="#">• Events</a>
                         <ul type="none">
                             <li>
                                 <a class="hamburger-item link" href="events.html">Community Events</a>
@@ -114,12 +122,12 @@
                                 <a class="hamburger item link" href="meetings.html">Meetings</a>
                             </li>
                             <li>
-                                <a class="hamburger item link" href="committees.html">Committees</a>
+                                <a class="hamburger item link" href="committees.html">• Committees</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="hamburger-item" href="#">• Resources</a>
+                        <a class="hamburger-item" href="#">Resources</a>
                         <ul type="none">
                             <li>
                                 <a class="hamburger-item link" href="calendar.html">Calendar</a>
@@ -131,7 +139,7 @@
                                 <a class="hamburger-item link" href="hours.html">Hours</a>
                             </li>
                             <li>
-                                <a class="hamburger-item link" href="tutoring.html">• Tutoring</a>
+                                <a class="hamburger-item link" href="tutoring.html">Tutoring</a>
                             </li>
                         </ul>
                     </li>
@@ -146,28 +154,30 @@
             <i class="material-icons" id="btt-btn">expand_less</i>
         </span>
 
-        <div id="tutoring">
-            <p id="tutoring-text">Struggling in a certain class? Need help with a particular subject area?
-            Interested in expanding your knowledge of a given topic? Our NHS members are
-            here to help you with your studies!</p>
+        <p id="committee-text">In an effort to give our members more opportunities in leadership roles within the
+        society, we are forming committees to delegate new responsibilities to members who wish
+        to get involved.</p>
 
-            <table id="tutoring-table">
-                <caption>NHS Tutoring</caption>
-                <thead>
-                    <tr>
-                        <th id="keyrow">Tutor</th>
-                        <th id="keyrow">Subject</th>
-                        <th id="keyrow">Availability</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Not Available</td>
-                        <td>Not Available</td>
-                        <td>Not Available</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div id="committee-row">
+            <span id="committee-a">
+                <h1>Blood Drive Committee</h1>
+                <p>The Blood Drive Committee aims to train members to organize the blood drive for the 
+                2019-2020 school year. Responsibilities include meeting with Red Cross representatives
+                and running the drive itself.</p>
+                <p>Committee Heads: Zachary Essick, Marshall Lentz</p>
+                <p>Committee Members:</p>
+                <p>Sign up here:</p>
+            </span>
+
+            <span id="committee-b">
+                <h1>Collection Committee</h1>
+                <p>Many NHS events include donations, so we're always looking for people to pick up and
+                drop off the donated items. Members must be able to drive to and from pick up and drop
+                off locations.</p>
+                <p>Committee Heads:</p>
+                <p>Committee Members:</p>
+                <p>Sign up here:</p>
+            </span>
         </div>
 
         <div id="footer">
@@ -178,7 +188,7 @@
                     <span><a href="#"><img class="social-icon" src="Images/32px_gc_wht_sqr.png" /></a></span>
                 </div>
             </div>
-            <p id="footer-text">This website was last updated in July 2018.</p>
+            <p id="footer-text">This website was last updated July 2018.</p>
         </div>
     </body>
 </html>
