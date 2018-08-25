@@ -71,7 +71,7 @@ var events = [
     new Event(new Date(2019, 0, 12), new Date(2019, 0, 12), "Taking Down Decorations"),
     new Event(new Date(2019, 1, 1), new Date(2019, 1, 1), "Heifer Fund (Panera)"),
     new Event(new Date(2019, 2, 1), new Date(2019, 2, 1), "Read Across America"),
-    new Event(new Date(2019, 2, 21), new Date(2019, 2, 21), "Spring Blood Drive"), /* Not the final decided endDate */
+    new Event(new Date(2019, 2, 21), new Date(2019, 2, 21), "Spring Blood Drive"),
     new Event(new Date(2019, 3, 26), new Date(2019, 3, 26), "Soles for Souls"),
     new Event(new Date(2019, 4, 3), new Date(2019, 4, 3), "Penny Wars"),
     new Event(new Date(2019, 4, 11), new Date(2019, 4, 11), "Prom (Fashion Show) at Nursing Home"),

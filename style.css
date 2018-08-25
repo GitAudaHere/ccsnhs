@@ -133,6 +133,19 @@ th {
     padding-left: -15px;
 }
 
+.document-item {
+    width: 50%;
+    margin-bottom: 12px;
+    float: left;
+    position: relative;
+}
+
+.documents-wrapper {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .dropdown {
     position: relative;
     padding: 10px;
