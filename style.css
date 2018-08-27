@@ -137,7 +137,6 @@ th {
     width: 50%;
     margin-top: 30px;
     margin-bottom: 12px;
-    border: 1px solid black;
     float: left;
 }
 
@@ -870,8 +869,8 @@ th {
 @media only screen and (max-width: 640px) {
 
     .document-item {
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .events-content {
