@@ -223,6 +223,11 @@ th {
     height: auto;
 }
 
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
 .link {
     color: #42C5F4;
     text-decoration: underline;
