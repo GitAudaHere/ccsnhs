@@ -214,6 +214,12 @@ th {
     font-size: 24px;
 }
 
+.file-icon::before {
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+}
+
 .hamburger-item {
     color: #FFFFFF;
 }
@@ -221,6 +227,12 @@ th {
 .hamburger-sizer {
     width: 30px;
     height: auto;
+}
+
+.html-document::before {
+    content: "\f35d";
+    color: #152136;
+    font-weight: 900;
 }
 
 .link {
@@ -270,6 +282,11 @@ th {
 
 .no-caps-text {
     text-transform: none;
+}
+
+.pdf::before {
+    content: "\f1c1";
+    color: #FF542C;
 }
 
 .question-btn {
