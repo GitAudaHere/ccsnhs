@@ -38,7 +38,7 @@ class Event {
 }
 
 function dateToString(date) {
-    if (date.startDate == null || Date.parse(date.startDate) == Date.parse(date.endDate)) {
+    if (date.startDate == null || Math.floor((Date.parse(date.startDate) - date.startDate.getTimezoneOffset() * 60000) / 86400000) == Math.floor((Date.parse(date.endDate) - date.endDate.getTimezoneOffset() * 60000) / 86400000)) {
         return weekday[date.endDate.getDay()] + ", " + month[date.endDate.getMonth()] + " " + date.endDate.getDate();
     }
     else
@@ -48,34 +48,34 @@ function dateToString(date) {
 }
 
 var meetings = [
-    new Meeting(new Date(2018, 7, 8), "Email", "N/A"),
-    new Meeting(new Date(2018, 7, 28), "Meeting", "7:10"),
-    new Meeting(new Date(2018, 8, 28), "Email", "N/A"),
-    new Meeting(new Date(2018, 10, 6), "Meeting", "7:10"),
-    new Meeting(new Date(2018, 10, 27), "Meeting", "7:10"),
-    new Meeting(new Date(2019, 0, 21), "Email", "N/A"),
-    new Meeting(new Date(2019, 1, 28), "Email", "N/A"),
-    new Meeting(new Date(2019, 2, 1), "Meeting", "7:10"),
-    new Meeting(new Date(2019, 3, 9), "Meeting", "7:10"),
-    new Meeting(new Date(2019, 4, 7), "Meeting", "7:10")
+    new Meeting(new Date(2018, 7, 8, 23, 59, 59), "Email", "N/A"),
+    new Meeting(new Date(2018, 7, 28, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2018, 8, 28, 23, 59, 59), "Email", "N/A"),
+    new Meeting(new Date(2018, 10, 6, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2018, 10, 27, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2019, 0, 21, 23, 59, 59), "Email", "N/A"),
+    new Meeting(new Date(2019, 1, 28, 23, 59, 59), "Email", "N/A"),
+    new Meeting(new Date(2019, 2, 1, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2019, 3, 9, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2019, 4, 7, 7, 25), "Meeting", "7:10")
 ];
 
 var events = [
-    new Event(new Date(2018, 7, 15), new Date(2018, 7, 15), "Meet the Teacher Night"),
-    new Event(new Date(2018, 7, 27), new Date(2018, 7, 31), "School Supply Drive"),
-    new Event(new Date(2018, 8, 8), new Date(2018, 8, 8), "Back to School Night"),
-    new Event(new Date(2018, 9, 3), new Date(2018, 9, 3), "Fall Back Sale"),
-    new Event(new Date(2018, 10, 9), new Date(2018, 10, 9), "Fall Blood Drive"),
-    new Event(new Date(2018, 10, 14), new Date(2018, 10, 14), "NHS Induction"),
-    new Event(new Date(2018, 11, 1), new Date(2018, 11, 1), "Decorating Nursing Homes"),
-    new Event(new Date(2019, 0, 12), new Date(2019, 0, 12), "Taking Down Decorations"),
-    new Event(new Date(2019, 1, 1), new Date(2019, 1, 1), "Heifer Fund (Panera)"),
-    new Event(new Date(2019, 2, 1), new Date(2019, 2, 1), "Read Across America"),
-    new Event(new Date(2019, 2, 21), new Date(2019, 2, 21), "Spring Blood Drive"),
-    new Event(new Date(2019, 3, 26), new Date(2019, 3, 26), "Soles for Souls"),
-    new Event(new Date(2019, 4, 3), new Date(2019, 4, 3), "Penny Wars"),
-    new Event(new Date(2019, 4, 11), new Date(2019, 4, 11), "Prom (Fashion Show) at Nursing Home"),
-    new Event(new Date(2019, 4, 21), new Date(2019, 4, 21), "Spring Raffle")
+    new Event(new Date(2018, 7, 15), new Date(2018, 7, 15, 23, 59, 59), "Meet the Teacher Night"),
+    new Event(new Date(2018, 7, 27), new Date(2018, 7, 31, 23, 59, 59), "School Supply Drive"),
+    new Event(new Date(2018, 8, 5), new Date(2018, 8, 5, 23, 59, 59), "Back to School Night"),
+    new Event(new Date(2018, 9, 3), new Date(2018, 9, 3, 23, 59, 59), "Fall Back Sale"),
+    new Event(new Date(2018, 10, 9), new Date(2018, 10, 9, 23, 59, 59), "Fall Blood Drive"),
+    new Event(new Date(2018, 10, 14), new Date(2018, 10, 14, 23, 59, 59), "NHS Induction"),
+    new Event(new Date(2018, 11, 1), new Date(2018, 11, 1, 23, 59, 59), "Decorating Nursing Homes"),
+    new Event(new Date(2019, 0, 12), new Date(2019, 0, 12, 23, 59, 59), "Taking Down Decorations"),
+    new Event(new Date(2019, 1, 1), new Date(2019, 1, 1, 23, 59, 59), "Heifer Fund (Panera)"),
+    new Event(new Date(2019, 2, 1), new Date(2019, 2, 1, 23, 59, 59), "Read Across America"),
+    new Event(new Date(2019, 2, 21), new Date(2019, 2, 21, 23, 59, 59), "Spring Blood Drive"),
+    new Event(new Date(2019, 3, 26), new Date(2019, 3, 26, 23, 59, 59), "Soles for Souls"),
+    new Event(new Date(2019, 4, 3), new Date(2019, 4, 3, 23, 59, 59), "Penny Wars"),
+    new Event(new Date(2019, 4, 11), new Date(2019, 4, 11, 23, 59, 59), "Prom (Fashion Show) at Nursing Home"),
+    new Event(new Date(2019, 4, 21), new Date(2019, 4, 21, 23, 59, 59), "Spring Raffle")
 ];
 
 function nextActivity(activityList) {
