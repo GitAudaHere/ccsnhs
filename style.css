@@ -460,25 +460,27 @@ th {
 
 #committee-a {
     max-width: 400px;
-    margin-left: 20%;
+    margin-bottom: 50px;
+    margin-left: 15%;
     float: left;
 }
 
 #committee-b {
     max-width: 400px;
-    margin-right: 20%;
+    margin-right: 15%;
+    margin-bottom: 50px;
     float: right;
 }
 
 #committee-row {
     margin-top: 70px;
-    margin-bottom: 480px;
 }
 
 #committee-text {
-    max-width: 1000px;
+    width: 70%;
     text-align: center;
     margin: auto;
+    margin-top: 20px;
 }
 
 #contact-intro {
@@ -771,6 +773,14 @@ th {
         display: none;
     }
 
+    #committee-a, #committee-b {
+        width: 60%;
+        max-width: none;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+
     #contact-wrapper {
         width: 85vw;
         margin-left: auto;
@@ -917,6 +927,14 @@ th {
     #bylaws {
         width: 90%;
         margin-top: 20%;
+    }
+
+    #committee-a, #committee-b {
+        width: 90vw;
+    }
+
+    #committee-text {
+        width: 72vw;
     }
 
     #events-panel-right {
