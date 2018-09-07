@@ -780,7 +780,7 @@ th {
         display: none;
     }
 
-    #committee-a, #committee-b {
+    #committee-a, #committee-b, #committee-c {
         width: 60%;
         max-width: none;
         margin-right: auto;
@@ -936,7 +936,7 @@ th {
         margin-top: 20%;
     }
 
-    #committee-a, #committee-b {
+    #committee-a, #committee-b, #committee-c {
         width: 90vw;
     }
 
