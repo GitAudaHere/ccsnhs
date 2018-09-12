@@ -111,6 +111,10 @@ th {
     margin: 5px;
 }
 
+.committee-row {
+    margin-top: 70px;
+}
+
 .contact-person {
     padding-bottom: 15px;
 }
@@ -474,13 +478,10 @@ th {
 
 #committee-c {
     max-width: 400px;
+    margin-right: 15%;
     margin-bottom: 50px;
     margin-left: 15%;
     float: left;
-}
-
-#committee-row {
-    margin-top: 70px;
 }
 
 #committee-text {
