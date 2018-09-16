@@ -239,6 +239,10 @@ th {
     font-weight: 900;
 }
 
+.keyrow {
+    padding: 10px 30px 10px 30px;
+}
+
 .link {
     color: #42C5F4;
     text-decoration: underline;
@@ -601,10 +605,6 @@ th {
     padding-left: 2.2%;
     margin-bottom: 40px;
     display: inline-block;
-}
-
-#keyrow {
-    padding: 10px 30px 10px 30px;
 }
 
 #logo {
