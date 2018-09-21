@@ -55,7 +55,7 @@ var meetings = [
     new Meeting(new Date(2018, 10, 27, 7, 25), "Meeting", "7:10"),
     new Meeting(new Date(2019, 0, 21, 23, 59, 59), "Email", "N/A"),
     new Meeting(new Date(2019, 1, 28, 23, 59, 59), "Email", "N/A"),
-    new Meeting(new Date(2019, 2, 1, 7, 25), "Meeting", "7:10"),
+    new Meeting(new Date(2019, 2, 19, 7, 25), "Meeting", "7:10"),
     new Meeting(new Date(2019, 3, 9, 7, 25), "Meeting", "7:10"),
     new Meeting(new Date(2019, 4, 7, 7, 25), "Meeting", "7:10")
 ];
