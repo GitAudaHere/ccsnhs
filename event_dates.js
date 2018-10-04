@@ -64,7 +64,6 @@ var events = [
     new Event(new Date(2018, 7, 15), new Date(2018, 7, 15, 23, 59, 59), "Meet the Teacher Night"),
     new Event(new Date(2018, 7, 27), new Date(2018, 7, 31, 23, 59, 59), "School Supply Drive"),
     new Event(new Date(2018, 8, 5), new Date(2018, 8, 5, 23, 59, 59), "Back to School Night"),
-    new Event(new Date(2018, 9, 3), new Date(2018, 9, 3, 23, 59, 59), "Fall Bake Sale"),
     new Event(new Date(2018, 10, 9), new Date(2018, 10, 9, 23, 59, 59), "Fall Blood Drive"),
     new Event(new Date(2018, 10, 14), new Date(2018, 10, 14, 23, 59, 59), "NHS Induction"),
     new Event(new Date(2018, 11, 1), new Date(2018, 11, 1, 23, 59, 59), "Decorating Nursing Homes"),
